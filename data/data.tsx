@@ -169,7 +169,7 @@ export const currentEvents = [
 // Home Page Data
 export const homeData = {
   hero: {
-    title: ["Innovation and", "Entrepreneurship Development Center"],
+    title: ["Innovation and", "Entrepreneurship Development Centre"],
     subtitle: "Fostering innovation, creativity, and entrepreneurial mindset among students",
     buttons: [
       { text: "Learn More", href: "/about", variant: "primary" },
@@ -1715,7 +1715,7 @@ export const contactData = {
 // Footer Data
 export const footerData = {
   description:
-    "Innovation and Entrepreneurship Development Center - Fostering innovation and entrepreneurship among students.",
+    "Innovation and Entrepreneurship Development Centre - Fostering innovation and entrepreneurship among students.",
   quickLinks: [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
