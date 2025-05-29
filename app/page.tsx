@@ -30,7 +30,7 @@ export default function Home() {
           >
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
               <span className="block">Innovation and</span>
-              <span className="block text-blue-300">Entrepreneurship Development Center</span>
+              <span className="block text-blue-300">Entrepreneurship Development Centre</span>
             </h1>
             <p className="mx-auto mt-6 max-w-lg text-xl text-blue-100 sm:max-w-3xl">
               Fostering innovation, creativity, and entrepreneurial mindset among students
