@@ -142,7 +142,7 @@ export const socialLinks: SocialLink[] = [
 // Contact Information
 export const contactInfo: ContactInfo = {
   email: "adishankaraiedc@gmail.com",
-  phone: "+91 73064 54832",
+  phone: "+91 9847664564",
   address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   officeHours: [
     { days: "Monday - Friday", hours: "9:00 AM - 5:00 PM" },
@@ -169,7 +169,7 @@ export const currentEvents = [
 // Home Page Data
 export const homeData = {
   hero: {
-    title: ["Innovation and", "Entrepreneurship Development Cell"],
+    title: ["Innovation and", "Entrepreneurship Development Center"],
     subtitle: "Fostering innovation, creativity, and entrepreneurial mindset among students",
     buttons: [
       { text: "Learn More", href: "/about", variant: "primary" },
@@ -1573,7 +1573,7 @@ export const contactData = {
   },
   contactInfo: {
     email: "adishankaraiedc@gmail.com",
-    phone: "+91 73064 54832",
+    phone: "+91 9847664564",
     address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   },
   officeHours: [
@@ -1715,7 +1715,7 @@ export const contactData = {
 // Footer Data
 export const footerData = {
   description:
-    "Innovation and Entrepreneurship Development Cell - Fostering innovation and entrepreneurship among students.",
+    "Innovation and Entrepreneurship Development Center - Fostering innovation and entrepreneurship among students.",
   quickLinks: [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
@@ -1725,7 +1725,7 @@ export const footerData = {
   ],
   contactInfo: {
     email: "adishankaraiedc@gmail.com",
-    phone: "+91 73064 54832",
+    phone: "+91 9847664564",
     address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   },
   socialLinks: [
