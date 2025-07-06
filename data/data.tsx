@@ -162,7 +162,7 @@ export const currentEvents = [
     image: "/images/Events/excomcall.png?height=10&width=600",
     description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
     category: "Recruitment",
-    registrationLink: "#",
+    registrationLink: "https://iedc-form.vercel.app/",
   }
 ]
 
