@@ -173,7 +173,7 @@ export const currentEvents = [
     location: "ASIET",
     image: "/images/Events/ev13.jpeg?height=10&width=600",
     description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
-    category: "Competetion",
+    category: "Competition",
     registrationLink: "https://my.msme.gov.in/inc/",
   }
 ]
