@@ -163,7 +163,7 @@ export const currentEvents = [
     description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
     category: "Recruitment",
     registrationLink: "https://iedc-form.vercel.app/",
-  }
+  },
 
   {
     id: 2,
