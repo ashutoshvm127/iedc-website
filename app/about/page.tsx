@@ -180,27 +180,27 @@ export default function AboutPage() {
             </p>
           </motion.div>
 
-          <div className="grid gap-8 md:grid-cols-4">
-            {aboutData.team.map((member, index) => (
+          <div className="flex justify-center items-center gap-16 max-w-5xl mx-auto flex-wrap">
+            {aboutData.team.slice(0, 3).map((member, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="text-center"
+                className="text-center flex-1 min-w-[250px]"
               >
-                <div className="mx-auto mb-4 h-40 w-40 overflow-hidden rounded-full">
+                <div className="mx-auto mb-6 h-48 w-48 overflow-hidden rounded-full shadow-lg">
                   <Image
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
-                    width={160}
-                    height={160}
+                    width={192}
+                    height={192}
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">{member.name}</h3>
-                <p className="text-darkblue-600 dark:text-darkblue-400">{member.role}</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{member.name}</h3>
+                <p className="text-lg text-darkblue-600 dark:text-darkblue-400">{member.role}</p>
               </motion.div>
             ))}
           </div>
