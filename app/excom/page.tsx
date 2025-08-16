@@ -48,7 +48,7 @@ export default function ExcomPage() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
               Current Executive Committee
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400">2024-2025 Academic Year</p>
+            <p className="mx-auto mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400">2025-2026 Academic Year</p>
           </motion.div>
 
           <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -180,7 +180,7 @@ export default function ExcomPage() {
             </p>
           </motion.div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
             {excomData.facultyAdvisors.map((advisor, index) => (
               <motion.div
                 key={index}
