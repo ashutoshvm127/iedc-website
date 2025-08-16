@@ -939,7 +939,7 @@ export const eventsData = {
   previousEvents: [
     {
     id: 1113,
-    title: "Excom Call",
+    title: "Execom Call",
     date: "July 15, 2025",
     location: "IEDC Bootcamp",
     image: "/images/Events/excomcall.png?height=10&width=600",
