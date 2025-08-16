@@ -338,11 +338,6 @@ export const aboutData = {
       image: "/images/About/eldhosekk.png?height=275&width=300",
     },
     {
-      name: "Asst Prof. Eldhose P Sim",
-      role: "IEDC Nodal Officer",
-      image: "/images/About/eldhosepsim.png",
-    },
-    {
       name: "Dr. Sneha Prakash",
       role: "IEDC Nodal Officer",
       image: "/images/About/drsnehaprakash.png",
@@ -935,13 +930,6 @@ export const excomData = {
       department: "Mechanical Engineering",
       image: "/images/About/eldhosekk.png?height=100&width=300",
       bio: "Dr. Eldhose K K has experience in technology entrepreneurship and has mentored students to successfully work on their projects.",
-    },
-    {
-      name: "Asst Prof. Eldhose P Sim",
-      position: "Assistant Professor",
-      department: "Computer Science",
-      image: "/images/About/eldhosepsim.png?height=300&width=300",
-      bio: "Asst Prof. Eldhose P Sim specializes in product development and has helped students convert their ideas into viable products and also brings industry connections and expertise in securing funding for early-stage startups.",
     },
     {
       name: "Dr. Sneha Prakash",
