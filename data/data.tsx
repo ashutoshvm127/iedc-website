@@ -155,6 +155,18 @@ export const contactInfo: ContactInfo = {
 export const currentEvents = [
   {
     id: 1,
+    title: "Excom Call",
+    date: "To Be Announced",
+    time: "To Be Announced",
+    location: "To Be Announced",
+    image: "/images/Events/excomcall.png?height=10&width=600",
+    description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
+    category: "Recruitment",
+    registrationLink: "https://iedc-form.vercel.app/",
+  },
+
+  {
+    id: 2,
     title: "MSME IDEA Hackathon 2025",
     date: "14th July 2025",
     // time: "To Be Announced",
@@ -325,6 +337,11 @@ export const aboutData = {
       role: "Cheif Coordinator of IEDC and TBI",
       image: "/images/About/eldhosekk.png?height=275&width=300",
     },
+    // {
+    //   name: "Asst Prof. Eldhose P Sim",
+    //   role: "IEDC Nodal Officer",
+    //   image: "/images/About/eldhosepsim.png",
+    // },//remove
     {
       name: "Dr. Sneha Prakash",
       role: "IEDC Nodal Officer",
@@ -358,9 +375,9 @@ export const excomData = {
   },
   currentExcom: [
     {
-      name: "Arjun Bittaj",
+      name: "Ashutosh V M",
       position: "IEDC Lead",
-      image: "/images/excom/arjunbittaj.jpg?height=300&width=300",
+      image: "/images/excom/ashutoshvm.jpg?height=300&width=300",
       department: "Computer Science",
       year: "Final Year",
       social: {
@@ -369,76 +386,70 @@ export const excomData = {
       },
     },
     {
-      name: "Aparna Prasad",
-      position: "IEDC Lead",
-      image: "/images/excom/aparnaprasad.jpg?height=300&width=300",
-      department: "Electronics",
+      name: "Malavika Muraleedharan",
+      position: "IEDC Co-Lead",
+      image: "/images/excom/malavika.jpg?height=300&width=300",
+      department: "Computer Science ( AI )",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/aparna-prasad-3075b42a3/",
-        instagram: "https://www.instagram.com/aparna_prasad___/"
+        linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
+        instagram: "https://www.instagram.com/_malavi.ka__/"
       },
     },
     {
-      name: "Luthfiya Kamal",
+      name: "Nithin Raj",
       position: "Event Lead and IPR Coordinator",
-      image: "/images/excom/luthfiakamal.jpg?height=300&width=300",
-      department: "Biomedical",
-      year: "Final Year",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Mechanical",
+      year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/luthfiya/",
         instagram: "https://www.instagram.com/l.u.t.h.h/"
       },
     },
     {
-      name: "Ajin P D",
-      position: "Event Lead and IPR Coordinator",
-      image: "/images/excom/ajinpd.jpg?height=300&width=300",
-      department: "Computer Science (AI)",
-      year: "Final Year",
+      name: "Ram Kiran Mohan",
+      position: "Jr. Event Lead and IPR Coordinator",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science ( AI )",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/ajin-p-d-94b37a212/",
         instagram: "https://www.instagram.com/ajin_p_d/"
       },
     },
     {
-      name: "Ashutosh V M",
+      name: "Abhinav R S",
       position: "Technical Lead",
-      image: "/images/excom/ashutoshvm.jpg?height=300&width=300",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
       department: "Computer Science",
-      year: "Pre-Final Year",
+      year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/ashutoshvm/",
         instagram: "https://www.instagram.com/the__.anonymous_/"
       },
     },
     {
-      name: "Sreeraj S",
-      position: "Technical Lead",
-      image: "/images/excom/sreerajs.jpg?height=300&width=300",
+      name: "Yadhukrishna V S",
+      position: "Jr. Technical Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
       department: "Computer Science",
-      year: "Final Year",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/sreeraj-s-8926b1226/",
         instagram: "https://www.instagram.com/_penguin_bongo_/"
       },
     },
     {
-      name: "Shoun Augustine",
-      position: "Technical Lead",
-      image: "/images/excom/shouns.jpg?height=300&width=300",
-      department: "Computer Science",
-      year: "Final Year",
-      social: {
-        linkedin: "https://www.linkedin.com/in/shoun-a-294966225/",
-        instagram: "https://www.instagram.com/elseantrabajo/"
-      },
-    },
-    {
-      name: "Malavika Muraleedharan",
+      name: "Anjana Ajith",
       position: "Women Entrepreneurship Lead",
-      image: "/images/excom/malavika.jpg?height=300&width=300",
-      department: "Computer Science(AI)",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Data Science",
       year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
@@ -446,22 +457,35 @@ export const excomData = {
       },
     },
     {
-      name: "Nimmy Jolly",
-      position: "Women Entrepreneurship Lead",
-      image: "/images/excom/nimmikjolly.jpg?height=300&width=300",
+      name: "S Sreelakshmi",
+      position: "Jr. Women Entrepreneurship Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
       department: "Computer Science",
-      year: "Final Year",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/nimmy-k-jolly-06351b226/",
         instagram: "https://www.instagram.com/nimmy_jolly/"
       },
     },
     {
-      name: "Arjun S",
+      name: "Nandana Silju",
       position: "Community Lead",
-      image: "/images/excom/arjuns.jpg?height=300&width=300",
+      image: "/images/excom/nandana.jpg?height=300&width=300",
       department: "Computer Science",
-      year: "Final Year",
+      year: "Pre-Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/nandana-silju-3040a3287/",
+        instagram: "https://www.instagram.com/nandana_silju/"
+      },
+    },
+    {
+      name: "Devanandha Anil",
+      position: "Jr. Community Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science",
+      year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/arjun-s-622062230/",
         instagram: "https://www.instagram.com/arjun._2002/"
@@ -469,46 +493,48 @@ export const excomData = {
     },
     {
       name: "Lakshmi Nandana R",
-      position: "Community Lead",
+      position: "Branding and Marketing Lead",
       image: "/images/excom/lakshminandana.jpg?height=300&width=300",
       department: "Computer Science",
-      year: "Pre-Final Year",
+      year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/lakshmi-nandana-r-504596231/",
         instagram: "https://www.instagram.com/lakshmeeey/"
       },
     },
     {
-      name: "Ameesh Muhammed ",
-      position: "Creative and Innovative Lead",
-      image: "/images/excom/ameesh.jpg?height=300&width=300",
-      department: "Computer Science(AI)",
+      name: "Fathima Ajvath",
+      position: "Jr. Branding and Marketing Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science ( AI )",
       year: "Pre-Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/shoun-a-294966225/",
+        instagram: "https://www.instagram.com/elseantrabajo/"
+      },
+    },
+    {
+      name: "Ameesh Muhammed ",
+      position: "Design Lead",
+      image: "/images/excom/ameesh.jpg?height=300&width=300",
+      department: "Computer Science ( AI )",
+      year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/ameeshm/",
         instagram: "https://www.instagram.com/4m335h/"
       },
     },
     {
-      name: "Adarsh Ajith",
-      position: "Creative and Innovative Lead",
-      image: "/images/excom/adarshajith.jpg?height=300&width=300",
-      department: "Computer Science(AI)",
-      year: "Final Year",
+      name: "Harikrishnan S",
+      position: "Jr. Design Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science ( AI )",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/adarsh-ajith/",
         instagram: "https://www.instagram.com/shubudian?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-      },
-    },
-    {
-      name: "Nanditha Nambyar",
-      position: "Finance Lead",
-      image: "/images/excom/nanditanambyar.jpg?height=300&width=300",
-      department: "Computer Science",
-      year: "Final Year",
-      social: {
-        linkedin: "https://www.linkedin.com/in/nanditha-nambiar-aa66a124b/",
-        instagram: "https://www.instagram.com/feat.nanditha/"
       },
     },
     {
@@ -516,27 +542,29 @@ export const excomData = {
       position: "Finance Lead",
       image: "/images/excom/rohit.jpg?height=300&width=300",
       department: "Mechanical",
-      year: "Pre-Final Year",
+      year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/rohith-james-30840a1b2/",
         instagram: "https://www.instagram.com/r_o_c_k_u___/"
       },
     },
     {
-      name: "Nandana Silju",
-      position: "Finance Lead",
-      image: "/images/excom/nandana.jpg?height=300&width=300",
+      name: "Abin Joy",
+      position: "Jr. Finance Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
       department: "Computer Science",
-      year: "2nd Year",
+      year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/nandana-silju-3040a3287/",
-        instagram: "https://www.instagram.com/nandana_silju/"
+        linkedin: "https://www.linkedin.com/in/nanditha-nambiar-aa66a124b/",
+        instagram: "https://www.instagram.com/feat.nanditha/"
       },
     },
     {
-      name: "Rithwik Vallabhan",
+      name: "Sreegovind R Kammath",
       position: "Quality and operations Lead",
-      image: "/images/excom/rithwik.jpg?height=300&width=300",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
       department: "Computer Science",
       year: "Final Year",
       social: {
@@ -545,40 +573,236 @@ export const excomData = {
       },
     },
     {
-      name: "Aleena Nelson",
-      position: "Quality and operations Lead",
-      image: "/images/excom/aleenanelson.jpg?height=300&width=300",
+      name: "G S Adhi Narayanan",
+      position: "Jr. Quality and operations Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
       department: "Biomedical",
-      year: "Final Year",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/aleenanelson/",
         instagram: "https://www.instagram.com/december_solitude/"
       },
     },
     {
-      name: "Melvin Mathew Jacob",
-      position: "Branding and Marketing Lead",
-      image: "/images/excom/melvin.jpg?height=300&width=300",
-      department: "Biomedical",
-      year: "Final Year",
+      name: "Akshay Raj",
+      position: "Creative and Innovation Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "ECE",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/melvinmathewjacob/",
         instagram: "https://www.instagram.com/melmastermathew/"
       },
     },
     {
-      name: "Sanchu M",
-      position: "Branding and Marketing Lead",
-      image: "/images/excom/sanchum.jpg?height=300&width=300",
-      department: "EEE",
-      year: "Final Year",
+      name: "B J Sai Krishnan",
+      position: "Jr. Creative and Innovation Lead",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "RA",
+      year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/sanchu-m-6b7a231bb/",
         instagram: "https://www.instagram.com/sanchu.me/"
       },
     },
+    {
+      name: "Vaishnavi S",
+      position: "Core Committe",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science",
+      year: "Second Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/arjun-bittaj-b16001251/",
+        instagram: "https://www.instagram.com/arjun_bittaj"
+      },
+    },
+    {
+      name: "Sreelakshmi S Nair",
+      position: "Core Committe",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      department: "ECE",
+      year: "Pre-Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
+        instagram: "https://www.instagram.com/_malavi.ka__/"
+      },
+    },
+    {
+      name: "Madhav J Niravath",
+      position: "Core Committe",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "RA",
+      year: "Second Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/luthfiya/",
+        instagram: "https://www.instagram.com/l.u.t.h.h/"
+      },
+    },
+    {
+      name: "Pavithra Deepu E",
+      position: "Core Committe",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science",
+      year: "Pre-Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/ajin-p-d-94b37a212/",
+        instagram: "https://www.instagram.com/ajin_p_d/"
+      },
+    },
+    {
+      name: "Afiya Fathima",
+      position: "Core Committe",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Computer Science",
+      year: "Pre-Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/ashutoshvm/",
+        instagram: "https://www.instagram.com/the__.anonymous_/"
+      },
+    },
+    {
+      name: "Nandana G",
+      position: "Core Committe",
+      image: "/images/excom/unknown.jpg?height=300&width=300",
+      //change
+      department: "Biomedical",
+      year: "Pre-Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/sreeraj-s-8926b1226/",
+        instagram: "https://www.instagram.com/_penguin_bongo_/"
+      },
+    },
   ],
   previousExcom: {
+    "2024-2025": [
+     { 
+      name: "Arjun Bittaj",
+      position: "IEDC Lead",
+      image: "/images/excom/arjunbittaj.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Aparna Prasad",
+      position: "IEDC Lead",
+      image: "/images/excom/aparnaprasad.jpg?height=300&width=300",
+      department: "Electronics"
+    },
+    {
+      name: "Luthfiya Kamal",
+      position: "Event Lead and IPR Coordinator",
+      image: "/images/excom/luthfiakamal.jpg?height=300&width=300",
+      department: "Biomedical"
+    },
+    {
+      name: "Ajin P D",
+      position: "Event Lead and IPR Coordinator",
+      image: "/images/excom/ajinpd.jpg?height=300&width=300",
+      department: "Computer Science (AI)"
+    },
+    {
+      name: "Ashutosh V M",
+      position: "Technical Lead",
+      image: "/images/excom/ashutoshvm.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Sreeraj S",
+      position: "Technical Lead",
+      image: "/images/excom/sreerajs.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Shoun Augustine",
+      position: "Technical Lead",
+      image: "/images/excom/shouns.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Malavika Muraleedharan",
+      position: "Women Entrepreneurship Lead",
+      image: "/images/excom/malavika.jpg?height=300&width=300",
+      department: "Computer Science(AI)"
+    },
+    {
+      name: "Nimmy Jolly",
+      position: "Women Entrepreneurship Lead",
+      image: "/images/excom/nimmikjolly.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Arjun S",
+      position: "Community Lead",
+      image: "/images/excom/arjuns.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Lakshmi Nandana R",
+      position: "Community Lead",
+      image: "/images/excom/lakshminandana.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Ameesh Muhammed ",
+      position: "Creative and Innovative Lead",
+      image: "/images/excom/ameesh.jpg?height=300&width=300",
+      department: "Computer Science(AI)"
+    },
+    {
+      name: "Adarsh Ajith",
+      position: "Creative and Innovative Lead",
+      image: "/images/excom/adarshajith.jpg?height=300&width=300",
+      department: "Computer Science(AI)"
+    },
+    {
+      name: "Nanditha Nambyar",
+      position: "Finance Lead",
+      image: "/images/excom/nanditanambyar.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Rohit James",
+      position: "Finance Lead",
+      image: "/images/excom/rohit.jpg?height=300&width=300",
+      department: "Mechanical"
+    },
+    {
+      name: "Nandana Silju",
+      position: "Finance Lead",
+      image: "/images/excom/nandana.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Rithwik Vallabhan",
+      position: "Quality and operations Lead",
+      image: "/images/excom/rithwik.jpg?height=300&width=300",
+      department: "Computer Science"
+    },
+    {
+      name: "Aleena Nelson",
+      position: "Quality and operations Lead",
+      image: "/images/excom/aleenanelson.jpg?height=300&width=300",
+      department: "Biomedical"
+    },
+    {
+      name: "Melvin Mathew Jacob",
+      position: "Branding and Marketing Lead",
+      image: "/images/excom/melvin.jpg?height=300&width=300",
+      department: "Biomedical"
+    },
+    {
+      name: "Sanchu M",
+      position: "Branding and Marketing Lead",
+      image: "/images/excom/sanchum.jpg?height=300&width=300",
+      department: "EEE"
+    },
+  ],
     "2023-2024": [
       {
         name: "Nowarlal",
@@ -919,6 +1143,13 @@ export const excomData = {
       image: "/images/About/eldhosekk.png?height=100&width=300",
       bio: "Dr. Eldhose K K has experience in technology entrepreneurship and has mentored students to successfully work on their projects.",
     },
+    // {
+    //   name: "Asst Prof. Eldhose P Sim",
+    //   position: "Assistant Professor",
+    //   department: "Computer Science",
+    //   image: "/images/About/eldhosepsim.png?height=300&width=300",
+    //   bio: "Asst Prof. Eldhose P Sim specializes in product development and has helped students convert their ideas into viable products and also brings industry connections and expertise in securing funding for early-stage startups.",
+    // },//remove
     {
       name: "Dr. Sneha Prakash",
       position: "Professor",
@@ -937,16 +1168,6 @@ export const eventsData = {
   },
   currentEvents, // Reference the shared events array
   previousEvents: [
-    {
-    id: 1113,
-    title: "Execom Call",
-    date: "July 15, 2025",
-    location: "IEDC Bootcamp",
-    image: "/images/Events/excomcall.png?height=10&width=600",
-    description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
-    category: "Recruitment",
-  },
-
     {
       id: 1114,
       title: "Ideapitching Competition",
