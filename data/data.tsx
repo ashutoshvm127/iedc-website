@@ -377,7 +377,7 @@ export const excomData = {
     {
       name: "Ashutosh V M",
       position: "IEDC Lead",
-      image: "/images/excom25-26/ashutoshvm.jpg?height=300&width=300",
+      image: "/images/execom25-26/ashutoshvm.jpg?height=300&width=300",
       department: "Computer Science",
       year: "Final Year",
       social: {
