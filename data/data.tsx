@@ -580,8 +580,7 @@ export const excomData = {
       department: "Biomedical",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/adhi-narayanan-ba1975326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-",
+        linkedin: "https://www.linkedin.com/in/adhi-narayanan-ba1975326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram: "https://www.instagram.com/adhi_narwywn?igsh=MTN1c3VnOWpmb2R6Zw=="
       },
     },
