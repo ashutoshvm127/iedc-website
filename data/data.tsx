@@ -663,8 +663,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/ashutoshvm/",
-        instagram: "https://www.instagram.com/the__.anonymous_/"
+        linkedin: "https://www.linkedin.com/in/afiya-fathima/",
+        instagram: "https://www.instagram.com/af_i_ya/"
       },
     },
     {
