@@ -447,7 +447,7 @@ export const excomData = {
     {
       name: "Anjana Ajith",
       position: "Women Entrepreneurship Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/anjanaajith.png?height=300&width=300",
       //change
       department: "Data Science",
       year: "Pre-Final Year",
@@ -551,7 +551,7 @@ export const excomData = {
     {
       name: "Abin Joy",
       position: "Jr. Finance Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/abinjoy.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
@@ -587,7 +587,7 @@ export const excomData = {
     {
       name: "Akshay Raj",
       position: "Creative and Innovation Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/akshayrajpr.jpg?height=300&width=300",
       //change
       department: "ECE",
       year: "Second Year",
@@ -658,7 +658,7 @@ export const excomData = {
     {
       name: "Afiya Fathima",
       position: "Core Committe",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/Afiya.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
