@@ -423,7 +423,7 @@ export const excomData = {
     {
       name: "Abhinav R S",
       position: "Technical Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/abhinavrs.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Final Year",
