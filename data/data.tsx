@@ -416,8 +416,8 @@ export const excomData = {
       department: "Computer Science ( AI )",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/ajin-p-d-94b37a212/",
-        instagram: "https://www.instagram.com/ajin_p_d/"
+        linkedin: "https://www.linkedin.com/in/ramkiranmohan/",
+        instagram: " https://www.instagram.com/notram._/"
       },
     },
     {
@@ -464,8 +464,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/nimmy-k-jolly-06351b226/",
-        instagram: "https://www.instagram.com/nimmy_jolly/"
+        linkedin: "https://www.linkedin.com/in/s-sreelakshmi-28a084328/",
+        instagram: "https://www.instagram.com/sree.laksh.mee?igsh=MXF2ajcxeTVyeHdxdQ==/"
       },
     },
     {
@@ -510,8 +510,8 @@ export const excomData = {
       department: "Computer Science ( AI )",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/shoun-a-294966225/",
-        instagram: "https://www.instagram.com/elseantrabajo/"
+        linkedin: "https://www.linkedin.com/in/fathima-ajvad/",
+        instagram: "https://www.instagram.com/_fathima_ajvad?igsh=Y2tveHo2YTRqenVw/"
       },
     },
     {
@@ -544,8 +544,8 @@ export const excomData = {
       department: "Mechanical",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/rohith-james-30840a1b2/",
-        instagram: "https://www.instagram.com/r_o_c_k_u___/"
+        linkedin: "https://www.linkedin.com/in/rohith-james-6039ba37a/",
+        instagram: "https://www.instagram.com/r_o_c_k_u___?igsh=cGlyZ3FvZDJhNHZs/"
       },
     },
     {
@@ -568,8 +568,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/rithwik-vallabhan-tv-b01232220/",
-        instagram: "https://www.instagram.com/rithwik.vallabhan/"
+        linkedin: "https://www.linkedin.com/in/sreegovind-r-356a45263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/sre.govind.rkammath?igsh=NG1zNTBmcnZ6cjJn/"
       },
     },
     {
@@ -592,8 +592,8 @@ export const excomData = {
       department: "ECE",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/melvinmathewjacob/",
-        instagram: "https://www.instagram.com/melmastermathew/"
+        linkedin: "www.linkedin.com/in/AKSHAI-raj-p-r/",
+        instagram: "https://www.instagram.com/_.aksheiiii_?igsh=M3R0c21uaWpxYmNp/"
       },
     },
     {
@@ -604,8 +604,8 @@ export const excomData = {
       department: "RA",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/sanchu-m-6b7a231bb/",
-        instagram: "https://www.instagram.com/sanchu.me/"
+        linkedin: "https://www.linkedin.com/in/b-j-sai-krishna-31737433a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/snaps_with_sai__06/profilecard/?igsh=M2pqajFuMTgwcHVt/"
       },
     },
     {
@@ -651,8 +651,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/ajin-p-d-94b37a212/",
-        instagram: "https://www.instagram.com/ajin_p_d/"
+        linkedin: "https://www.linkedin.com/in/pavithra-deepu-e?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/paviiithraaa._?igsh=ZXhwdHBwcWZkdGY=/"
       },
     },
     {
@@ -675,8 +675,8 @@ export const excomData = {
       department: "Biomedical",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/sreeraj-s-8926b1226/",
-        instagram: "https://www.instagram.com/_penguin_bongo_/"
+        linkedin: "https://www.linkedin.com/in/nandana-g-805b56290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/nandana_.girish._?igsh=MWV1eG00Y2piZmJpMg==/"
       },
     },
   ],
