@@ -521,7 +521,7 @@ export const excomData = {
       department: "Computer Science ( AI )",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/ameeshm/",
+        linkedin: "https://www.linkedin.com/in/ameeshm4/",
         instagram: "https://www.instagram.com/4m335h/"
       },
     },
