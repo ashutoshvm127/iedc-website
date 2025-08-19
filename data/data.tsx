@@ -533,8 +533,8 @@ export const excomData = {
       department: "Computer Science ( AI )",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/adarsh-ajith/",
-        instagram: "https://www.instagram.com/shubudian?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        linkedin: "https://www.linkedin.com/in/hari-dev00/",
+        instagram: "https://www.instagram.com/_ha.riiii._/profilecard/?igsh=MW5qcmUzcm11OGlnZw=="
       },
     },
     {
@@ -556,8 +556,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/nanditha-nambiar-aa66a124b/",
-        instagram: "https://www.instagram.com/feat.nanditha/"
+        linkedin: "https://www.instagram.com/abin__._joy?igsh=MXBpMTEyNzFxYnV0/",
+        instagram: "https://www.linkedin.com/in/abin-joy-122025286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"
       },
     },
     {
@@ -639,8 +639,8 @@ export const excomData = {
       department: "RA",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/luthfiya/",
-        instagram: "https://www.instagram.com/l.u.t.h.h/"
+        linkedin: "https://www.instagram.com/madhavvvvj/",
+        instagram: "https://www.linkedin.com/in/madhav-j-niravath-2aab5232a/"
       },
     },
     {
