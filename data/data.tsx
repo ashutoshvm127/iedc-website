@@ -411,7 +411,7 @@ export const excomData = {
     {
       name: "Ram Kiran Mohan",
       position: "Jr. Event Lead and IPR Coordinator",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/ramkiran.jpg?height=300&width=300",
       //change
       department: "Computer Science ( AI )",
       year: "Second Year",
