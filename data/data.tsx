@@ -639,8 +639,8 @@ export const excomData = {
       department: "RA",
       year: "Second Year",
       social: {
-        linkedin: "https://www.instagram.com/madhavvvvj/",
-        instagram: "https://www.linkedin.com/in/madhav-j-niravath-2aab5232a/"
+        linkedin: "https://www.linkedin.com/in/madhav-j-niravath-2aab5232a/",
+        instagram: "https://www.instagram.com/madhavvvvj/"
       },
     },
     {
