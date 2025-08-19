@@ -658,7 +658,7 @@ export const excomData = {
     {
       name: "Afiya Fathima",
       position: "Core Committe",
-      image: "/images/execom25-26/Afiya.jpg?height=300&width=300",
+      image: "/images/execom25-26/afiya.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
