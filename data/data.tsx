@@ -592,7 +592,7 @@ export const excomData = {
       department: "ECE",
       year: "Second Year",
       social: {
-        linkedin: "www.linkedin.com/in/AKSHAI-raj-p-r/",
+        linkedin: "https://www.linkedin.com/in/AKSHAI-raj-p-r/",
         instagram: "https://www.instagram.com/_.aksheiiii_?igsh=M3R0c21uaWpxYmNp/"
       },
     },
