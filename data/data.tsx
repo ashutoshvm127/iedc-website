@@ -447,7 +447,7 @@ export const excomData = {
     {
       name: "Anjana Ajith",
       position: "Women Entrepreneurship Lead",
-      image: "/images/execom25-26/anjanaajith.png?height=300&width=300",
+      image: "/images/execom25-26/ananaajith.png?height=300&width=300",
       //change
       department: "Data Science",
       year: "Pre-Final Year",
