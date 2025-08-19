@@ -404,8 +404,8 @@ export const excomData = {
       department: "Mechanical",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/luthfiya/",
-        instagram: "https://www.instagram.com/l.u.t.h.h/"
+        linkedin: "https://www.linkedin.com/in/nithin-raj-068b13290/",
+        instagram: "https://www.instagram.com/deadline_dork_77?igsh=MWt3c3Z0MzZ4aTh3bg==/"
       },
     },
     {
@@ -452,8 +452,8 @@ export const excomData = {
       department: "Data Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
-        instagram: "https://www.instagram.com/_malavi.ka__/"
+        linkedin: "https://www.linkedin.com/in/anjana-ajith-2a0037291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/anjxnnna?igsh=dm42d3R2NjU2cHVh/"
       },
     },
     {
@@ -487,8 +487,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/arjun-s-622062230/",
-        instagram: "https://www.instagram.com/arjun._2002/"
+        linkedin: " https://www.linkedin.com/in/devananda-anil-2b3524230/",
+        instagram: "https://www.instagram.com/devzz_sum?igsh=Zng1c2xuNDU0enl0/"
       },
     },
     {
@@ -616,8 +616,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/arjun-bittaj-b16001251/",
-        instagram: "https://www.instagram.com/arjun_bittaj"
+        linkedin: "https://www.linkedin.com/in/vaishnavi-s-48555633a/",
+        instagram: "https://www.instagram.com/_vaishnavi.santhosh_?igsh=MWhtZDkxN3luZTF5bg=="
       },
     },
     {
@@ -627,8 +627,8 @@ export const excomData = {
       department: "ECE",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
-        instagram: "https://www.instagram.com/_malavi.ka__/"
+        linkedin: "https://www.linkedin.com/in/sreelakshmi-s-nair-434587273/",
+        instagram: "https://www.instagram.com/sree.laksshmii?igsh=OW11d3pnYm5ybDlw/"
       },
     },
     {
