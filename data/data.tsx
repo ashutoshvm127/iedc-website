@@ -523,7 +523,7 @@ export const excomData = {
     {
       name: "Harikrishnan S S",
       position: "Jr. Design Lead",
-      image: "/images/execom25-26/harikrishnan.heic?height=300&width=300",
+      image: "/images/execom25-26/harikrishnan.jpg?height=300&width=300",
       //change
       department: "Computer Science ( AI )",
       year: "Second Year",
