@@ -500,7 +500,7 @@ export const excomData = {
     {
       name: "Fathima Ajvad",
       position: "Jr. Branding and Marketing Lead",
-      image: "/images/execom25-26/fathima.jpg?height=300&width=300",
+      image: "/images/execom25-26/Fathima.jpg?height=300&width=300",
       //change
       department: "Computer Science ( AI )",
       year: "Pre-Final Year",
