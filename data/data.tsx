@@ -570,7 +570,7 @@ export const excomData = {
     {
       name: "G S Adhi Narayanan",
       position: "Jr. Quality and operations Lead",
-      image: "/images/excom/adhi.jpg?height=300&width=300",
+      image: "/images/execom25-26/adhi.jpg?height=300&width=300",
       //change
       department: "Biomedical",
       year: "Second Year",
