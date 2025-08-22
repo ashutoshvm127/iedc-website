@@ -337,11 +337,6 @@ export const aboutData = {
       role: "Cheif Coordinator of IEDC and TBI",
       image: "/images/About/eldhosekk.png?height=275&width=300",
     },
-    // {
-    //   name: "Asst Prof. Eldhose P Sim",
-    //   role: "IEDC Nodal Officer",
-    //   image: "/images/About/eldhosepsim.png",
-    // },//remove
     {
       name: "Dr. Sneha Prakash",
       role: "IEDC Nodal Officer",
@@ -528,7 +523,7 @@ export const excomData = {
     {
       name: "Harikrishnan S S",
       position: "Jr. Design Lead",
-      image: "/images/execom25-26/harikrishnan.jpg?height=300&width=300",
+      image: "/images/execom25-26/harikrishnan.heic?height=300&width=300",
       //change
       department: "Computer Science ( AI )",
       year: "Second Year",
