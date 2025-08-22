@@ -594,7 +594,7 @@ export const excomData = {
     {
       name: "B J Sai Krishnan",
       position: "Jr. Creative and Innovation Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/excom/sai.jpg?height=300&width=300",
       //change
       department: "RA",
       year: "Second Year",
