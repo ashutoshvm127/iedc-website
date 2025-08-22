@@ -558,7 +558,7 @@ export const excomData = {
     {
       name: "Sreegovind R Kammath",
       position: "Quality and operations Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/sreegovind.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Final Year",
