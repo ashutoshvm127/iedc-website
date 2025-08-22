@@ -394,7 +394,7 @@ export const excomData = {
     {
       name: "Nithin Raj",
       position: "Event Lead and IPR Coordinator",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/nithin.jpg?height=300&width=300",
       //change
       department: "Mechanical",
       year: "Pre-Final Year",
