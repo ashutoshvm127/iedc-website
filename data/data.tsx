@@ -430,7 +430,7 @@ export const excomData = {
     {
       name: "Yadhukrishna V S",
       position: "Jr. Technical Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/yadhu.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Second Year",
@@ -454,7 +454,7 @@ export const excomData = {
     {
       name: "S Sreelakshmi",
       position: "Jr. Women Entrepreneurship Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/ssreelakshmi.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Second Year",
@@ -477,7 +477,7 @@ export const excomData = {
     {
       name: "Devanandha Anil",
       position: "Jr. Community Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/devanandha.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
@@ -500,7 +500,7 @@ export const excomData = {
     {
       name: "Fathima Ajvad",
       position: "Jr. Branding and Marketing Lead",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/fathima.jpg?height=300&width=300",
       //change
       department: "Computer Science ( AI )",
       year: "Pre-Final Year",
@@ -606,7 +606,7 @@ export const excomData = {
     {
       name: "Vaishnavi S",
       position: "Core Committe",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/vashnavi.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Second Year",
@@ -618,7 +618,7 @@ export const excomData = {
     {
       name: "Sreelakshmi S Nair",
       position: "Core Committe",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/sreelakshmi.jpg?height=300&width=300",
       department: "ECE",
       year: "Pre-Final Year",
       social: {
@@ -629,7 +629,7 @@ export const excomData = {
     {
       name: "Madhav J Niravath",
       position: "Core Committe",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/madhav.jpg?height=300&width=300",
       //change
       department: "RA",
       year: "Second Year",
@@ -641,7 +641,7 @@ export const excomData = {
     {
       name: "Pavithra Deepu E",
       position: "Core Committe",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/Pavithra.jpg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
@@ -665,7 +665,7 @@ export const excomData = {
     {
       name: "Nandana G",
       position: "Core Committe",
-      image: "/images/excom/unknown.jpg?height=300&width=300",
+      image: "/images/execom25-26/nandhanag.jpg?height=300&width=300",
       //change
       department: "Biomedical",
       year: "Pre-Final Year",
