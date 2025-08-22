@@ -503,7 +503,7 @@ export const excomData = {
       },
     },
     {
-      name: "Fathima Ajvath",
+      name: "Fathima Ajvad",
       position: "Jr. Branding and Marketing Lead",
       image: "/images/excom/unknown.jpg?height=300&width=300",
       //change
