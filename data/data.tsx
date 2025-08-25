@@ -153,27 +153,17 @@ export const contactInfo: ContactInfo = {
 
 // Move currentEvents before homeData for better organization
 export const currentEvents = [
-  // {  id: 1,
-  //   title: "Excom Call",
-  //   date: "To Be Announced",
-  //   time: "To Be Announced",
-  //   location: "To Be Announced",
-  //   image: "/images/Events/excomcall.png?height=10&width=600",
-  //   description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
-  //   category: "Recruitment",
-  //   registrationLink: "https://iedc-form.vercel.app/",
-  // },
-  // {
-  //   id: 1,
-  //   title: "MSME IDEA Hackathon 2025",
-  //   date: "14th July 2025",
-  //   // time: "To Be Announced",
-  //   location: "ASIET",
-  //   image: "/images/Events/ev13.jpeg?height=10&width=600",
-  //   description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
-  //   category: "Competition",
-  //   registrationLink: "https://my.msme.gov.in/inc/",
-  // }
+  {
+    id: 1,
+    title: "MSME IDEA Hackathon 2025",
+    date: "14th July 2025",
+    // time: "To Be Announced",
+    location: "ASIET",
+    image: "/images/Events/ev13.jpeg?height=10&width=600",
+    description: "Join and build the new world.",
+    category: "Competition",
+    registrationLink: "https://my.msme.gov.in/inc/",
+  }
 ]
 
 // Home Page Data
