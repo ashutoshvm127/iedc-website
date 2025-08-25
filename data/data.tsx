@@ -1147,7 +1147,7 @@ export const eventsData = {
       id: 1113,
       title: "Excom Call",
       date: "August 18, 2025",
-      location: "IEDC Room",
+      location: "IEDC Bootcamp",
       image: "/images/Events/excomcall.png?height=10&width=600",
       description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
       category: "Other Event",
