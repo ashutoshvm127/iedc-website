@@ -421,8 +421,8 @@ export const excomData = {
       department: "Computer Science",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/ashutoshvm/",
-        instagram: "https://www.instagram.com/the__.anonymous_/"
+        linkedin: "https://www.linkedin.com",
+        instagram: "https://www.instagram.com"
       },
     },
     {
@@ -433,15 +433,14 @@ export const excomData = {
       department: "Computer Science",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/sreeraj-s-8926b1226/",
-        instagram: "https://www.instagram.com/_penguin_bongo_/"
+        linkedin: "https://www.linkedin.com",
+        instagram: "https://www.instagram.com"
       },
     },
     {
       name: "Anjana Ajith",
       position: "Women Entrepreneurship Lead",
       image: "/images/execom25-26/ananaajith.png?height=300&width=300",
-      //change
       department: "Data Science",
       year: "Pre-Final Year",
       social: {
