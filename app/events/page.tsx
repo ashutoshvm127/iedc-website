@@ -69,7 +69,7 @@ export default function EventsPage() {
             </p>
           </motion.div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+{/*           <div className="grid gap-8 md:grid-cols-3">
             {currentEvents.map((event, index) => (
               <motion.div
                 key={event.id}
@@ -78,7 +78,28 @@ export default function EventsPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
                 className="overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800"
-              >
+              > */}
+                <div className="grid gap-8 md:grid-cols-3">
+                  {currentEvents.length > 0 ? (
+                    currentEvents.map((event, index) => (
+                      <motion.div
+                        key={event.id}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                        viewport={{ once: true }}
+                        className="overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800"
+                      >
+                        {/* your event content */}
+                      </motion.div>
+                    ))
+                  ) : (
+                    <div className="col-span-full text-center text-gray-500 dark:text-gray-400">
+                      No upcoming events
+                    </div>
+                  )}
+                </div>
+
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={event.image || "/placeholder.svg"}
