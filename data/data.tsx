@@ -153,17 +153,17 @@ export const contactInfo: ContactInfo = {
 
 // Move currentEvents before homeData for better organization
 export const currentEvents = [
-  {
-    id: 1,
-    title: "MSME IDEA Hackathon 2025",
-    date: "14th July 2025",
-    // time: "To Be Announced",
-    location: "ASIET",
-    image: "/images/Events/ev13.jpeg?height=10&width=600",
-    description: "Join and build the new world.",
-    category: "Competition",
-    registrationLink: "https://my.msme.gov.in/inc/",
-  }
+  // {
+  //   id: 1,
+  //   title: "MSME IDEA Hackathon 2025",
+  //   date: "14th July 2025",
+  //   // time: "To Be Announced",
+  //   location: "ASIET",
+  //   image: "/images/Events/ev13.jpeg?height=10&width=600",
+  //   description: "Join and build the new world.",
+  //   category: "Competition",
+  //   registrationLink: "https://my.msme.gov.in/inc/",
+  // }
 ]
 
 // Home Page Data
@@ -1143,8 +1143,17 @@ export const eventsData = {
   },
   currentEvents, // Reference the shared events array
   previousEvents: [
+      {
+        id: 1113,
+        title: "MSME IDEA Hackathon 2025",
+        date: "14th July 2025",
+        location: "ASIET",
+        image: "/images/Events/ev13.jpeg?height=10&width=600",
+        description: "Join and build the new world.",
+        category: "Competition",
+     },
      {  
-      id: 1113,
+      id: 1114,
       title: "Excom Call",
       date: "August 18, 2025",
       location: "IEDC Bootcamp",
@@ -1153,7 +1162,7 @@ export const eventsData = {
       category: "Other Event",
     },
     {
-      id: 1114,
+      id: 1115,
       title: "Ideapitching Competition",
       date: "March 25, 2025",
       location: "Robotics Seminar Hall",
@@ -1162,7 +1171,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1115,
+      id: 1116,
       title: "Entrepreneurship Awareness Program",
       date: "March 13, 2025",
       location: "Seminar Hall",
@@ -1171,7 +1180,7 @@ export const eventsData = {
       category: "Workshop",
     },
     {
-      id: 1116,
+      id: 1117,
       title: "Samagra 2.O",
       date: "March 01, 2025",
       location: "Parking Area",
@@ -1180,7 +1189,7 @@ export const eventsData = {
       category: "Exhibition",
     },
     {
-      id: 1117,
+      id: 1118,
       title: "Twilight Hack",
       date: "October 21 & 22, 2024",
       location: "Central Computing Facility",
@@ -1189,7 +1198,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1118,
+      id: 1119,
       title: "Kalam Legacy",
       date: "October 15, 2024",
       location: "Online",
@@ -1198,7 +1207,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1119,
+      id: 1120,
       title: "Cluster Meet",
       date: "September 25, 2024",
       location: "Seminar Hall",
@@ -1207,7 +1216,7 @@ export const eventsData = {
       category: "Workshop",
     },
     {
-      id: 1120,
+      id: 1121,
       title: "Leap 2024",
       date: "March 22, 2024",
       location: "Seminar hall",
@@ -1216,7 +1225,7 @@ export const eventsData = {
       category: "Workshop",
     },
     {
-      id: 1121,
+      id: 1122,
       title: "Samagra 1.0",
       date: "March 01, 2023",
       location: "Main Campus",
@@ -1225,7 +1234,7 @@ export const eventsData = {
       category: "Exhibition",
     },
     {
-      id: 1122,
+      id: 1123,
       title: "Innovation Challenge(abstract submission)",
       date: "October 30, 2023",
       location: "Online",
@@ -1234,7 +1243,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1123,
+      id: 1124,
       title: "Innovation Challenge (acceptance intimation)",
       date: "November 1, 2023",
       location: "Online",
@@ -1243,7 +1252,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1124,
+      id: 1125,
       title: "Innovation Challenge (Video Pitching)",
       date: "November 15, 2023",
       location: "Online",
@@ -1252,7 +1261,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1125,
+      id: 1126,
       title: "Innovation Challenge (Final Round)",
       date: "November 28, 2023",
       location: "Online",
@@ -1261,7 +1270,7 @@ export const eventsData = {
       category: "Competition",
     },
     {
-      id: 1126,
+      id: 1127,
       title: "Execom Call 2024",
       date: "May 1, 2024",
       location: "IEDC Bootcamp",
@@ -1270,7 +1279,7 @@ export const eventsData = {
       category: "Other Event",
     },
     {
-      id: 1127,
+      id: 1128,
       title: "Design Thinking",
       date: "October 7, 2023",
       location: "Ec Mini seminar Hall",
@@ -1279,7 +1288,7 @@ export const eventsData = {
       category: "Workshop",
     },
     {
-      id: 1128,
+      id: 1129,
       title: "Execom Call 2023",
       date: "August 2, 2023",
       location: "IEDC Bootcamp",
