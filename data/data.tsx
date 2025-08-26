@@ -1146,7 +1146,7 @@ export const eventsData = {
       {
         id: 1113,
         title: "MSME IDEA Hackathon 2025",
-        date: "14th July 2025",
+        date: "July 14, 2025",
         location: "ASIET",
         image: "/images/Events/ev13.jpeg?height=10&width=600",
         description: "Join and build the new world.",
