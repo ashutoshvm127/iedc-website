@@ -1141,8 +1141,31 @@ export const eventsData = {
     title: "Events & Activities",
     subtitle: "Discover workshops, competitions, and networking opportunities to enhance your entrepreneurial journey",
   },
-  currentEvents, // Reference the shared events array
+  currentEvents:[
+    // {
+    //     id: 1,
+    //     title: "",
+    //     date: "",
+    //     time:"",
+    //     location: "",
+    //     image: "",
+    //     description: "",
+    //     category: "",
+    //     registrationLink: ""
+    //  },
+     {
+        id: 1,
+        title: "LEEP 2025",
+        date: "tbd",
+        time: "tbd",
+        location: "ASIET",
+        image: "/images/Events/ev14.jpeg?height=10&width=600",
+        description: "empowering the next generation of leaders and changemakers",
+        category: "Workshop",
+        registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdxAKh3oGhFObcVOp4zKMgsYzSNGjS3hd-f53XHiW_SUvkQcA/viewform?usp=sharing&ouid=101758661912978691558"
+     },],
   previousEvents: [
+      
       {
         id: 1113,
         title: "MSME IDEA Hackathon 2025",
