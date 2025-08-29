@@ -1156,8 +1156,8 @@ export const eventsData = {
      {
         id: 1,
         title: "LEEP 2025",
-        date: "tbd",
-        time: "tbd",
+        date: "TBD",
+        time: "TBD",
         location: "ASIET",
         image: "/images/Events/ev14.jpeg?height=10&width=600",
         description: "empowering the next generation of leaders and changemakers",
