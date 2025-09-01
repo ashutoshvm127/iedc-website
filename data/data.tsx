@@ -533,13 +533,14 @@ export const excomData = {
     {
       name: "Abin Joy",
       position: "Jr. Finance Lead",
-      image: "/images/execom25-26/abinjoy.jpg?height=300&width=300",
+      image: "/images/execom25-26/abinjoy.jpeg?height=300&width=300",
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
-      social: {
-        linkedin: "https://www.instagram.com/abin__._joy?igsh=MXBpMTEyNzFxYnV0/",
-        instagram: "https://www.linkedin.com/in/abin-joy-122025286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"
+      social: {        
+        linkedin: "https://www.linkedin.com/in/abin-joy-122025286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/abin__._joy?igsh=MXBpMTEyNzFxYnV0/"
+
       },
     },
     {
