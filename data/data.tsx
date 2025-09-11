@@ -164,6 +164,17 @@ export const currentEvents = [
   //   category: "Competition",
   //   registrationLink: "https://my.msme.gov.in/inc/",
   // }
+   {
+        id: 1,
+        title: "LEEP 2025",
+        date: "September 15, 2025",
+        time: "9:00 AM",
+        location: "ASIET",
+        image: "/images/Events/ev14.jpeg?height=10&width=600",
+        description: "empowering the next generation of leaders and changemakers",
+        category: "Workshop",
+        registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdxAKh3oGhFObcVOp4zKMgsYzSNGjS3hd-f53XHiW_SUvkQcA/viewform?usp=sharing&ouid=101758661912978691558"
+     },
 ]
 
 // Home Page Data
@@ -1157,8 +1168,8 @@ export const eventsData = {
      {
         id: 1,
         title: "LEEP 2025",
-        date: "TBD",
-        time: "TBD",
+        date: "September 15, 2025",
+        time: "9:00 AM",
         location: "ASIET",
         image: "/images/Events/ev14.jpeg?height=10&width=600",
         description: "empowering the next generation of leaders and changemakers",
