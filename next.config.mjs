@@ -38,7 +38,7 @@ const nextConfig = {
   devIndicators: false,
   redirects: async () => [
     {
-      source: "/register",
+      source: "/nava25",
       destination: "https://forms.gle/ji3seoSjhKhte8qv5",
       permanent: true,
     },
