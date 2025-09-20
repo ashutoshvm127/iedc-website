@@ -15,110 +15,110 @@ import {
   ArrowRight,
   Send,
   Youtube,
-} from "lucide-react"
-import type { ReactNode } from "react"
+} from "lucide-react";
+import type { ReactNode } from "react";
 
 // Types
 export type NavItem = {
-  name: string
-  href: string
-}
+  name: string;
+  href: string;
+};
 
 export type SocialLink = {
-  name: string
-  href: string
-  icon: ReactNode
-}
+  name: string;
+  href: string;
+  icon: ReactNode;
+};
 
 export type Feature = {
-  icon: ReactNode
-  title: string
-  description: string
-}
+  icon: ReactNode;
+  title: string;
+  description: string;
+};
 
 export type Stat = {
-  number: string
-  label: string
-}
+  number: string;
+  label: string;
+};
 
 export type TimelineItem = {
-  year: string
-  title: string
-  description: string
-}
+  year: string;
+  title: string;
+  description: string;
+};
 
 export type StartupSuccess = {
-  name: string
-  description: string
-  image: string
-  year: string
-}
+  name: string;
+  description: string;
+  image: string;
+  year: string;
+};
 
 export type TeamMember = {
-  name: string
-  role: string
-  image: string
-  department?: string
-  year?: string
-  bio?: string
+  name: string;
+  role: string;
+  image: string;
+  department?: string;
+  year?: string;
+  bio?: string;
   social?: {
-    email?: string
-    linkedin?: string
-  }
-}
+    email?: string;
+    linkedin?: string;
+  };
+};
 
 export type Achievement = {
-  icon: ReactNode
-  title: string
-  description: string
-}
+  icon: ReactNode;
+  title: string;
+  description: string;
+};
 
 export type ExcomMember = {
-  name: string
-  position: string
-  image: string
-  department: string
-  year?: string
+  name: string;
+  position: string;
+  image: string;
+  department: string;
+  year?: string;
   social?: {
-    linkedin?: string
-    instagram?: string
-  }
-}
+    linkedin?: string;
+    instagram?: string;
+  };
+};
 
 export type Event = {
-  id: number
-  title: string
-  date: string
-  time?: string
-  location: string
-  image: string
-  description: string
-  category: string
-  registrationLink?: string
-}
+  id: number;
+  title: string;
+  date: string;
+  time?: string;
+  location: string;
+  image: string;
+  description: string;
+  category: string;
+  registrationLink?: string;
+};
 
 export type GalleryImage = {
-  id: number
-  title: string
-  category: string
-  date: string
-  image: string
-}
+  id: number;
+  title: string;
+  category: string;
+  date: string;
+  image: string;
+};
 
 export type FAQ = {
-  question: string
-  answer: string
-}
+  question: string;
+  answer: string;
+};
 
 export type ContactInfo = {
-  email: string
-  phone: string
-  address: string[]
+  email: string;
+  phone: string;
+  address: string[];
   officeHours: {
-    days: string
-    hours: string
-  }[]
-}
+    days: string;
+    hours: string;
+  }[];
+};
 
 // Navigation
 export const navItems: NavItem[] = [
@@ -128,15 +128,31 @@ export const navItems: NavItem[] = [
   { name: "Events", href: "/events" },
   { name: "Gallery", href: "/gallery" },
   { name: "Contact", href: "/contact" },
-]
+];
 
 // Social Links
 export const socialLinks: SocialLink[] = [
-  { name: "Facebook", href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v", icon: <Facebook className="h-6 w-6" /> },
-  { name: "Youtube", href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP", icon: <Youtube className="h-6 w-6" /> },
-  { name: "Instagram", href: "https://www.instagram.com/asiet_iedc", icon: <Instagram className="h-6 w-6" /> },
-  { name: "LinkedIn", href: "https://www.linkedin.com/company/iedc-asiet/", icon: <Linkedin className="h-6 w-6" /> },
-]
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v",
+    icon: <Facebook className="h-6 w-6" />,
+  },
+  {
+    name: "Youtube",
+    href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP",
+    icon: <Youtube className="h-6 w-6" />,
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/asiet_iedc",
+    icon: <Instagram className="h-6 w-6" />,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/iedc-asiet/",
+    icon: <Linkedin className="h-6 w-6" />,
+  },
+];
 // email: "adishankaraiedc@gmail.com",
 
 // Contact Information
@@ -149,7 +165,7 @@ export const contactInfo: ContactInfo = {
     { days: "Saturday", hours: "opened for project" },
     { days: "Sunday", hours: "Closed" },
   ],
-}
+};
 
 // Move currentEvents before homeData for better organization
 export const currentEvents = [
@@ -164,13 +180,14 @@ export const currentEvents = [
   //   category: "Competition",
   //   registrationLink: "https://my.msme.gov.in/inc/",
   // }
-]
+];
 
 // Home Page Data
 export const homeData = {
   hero: {
     title: ["Innovation and", "Entrepreneurship Development Centre"],
-    subtitle: "Fostering innovation, creativity, and entrepreneurial mindset among students",
+    subtitle:
+      "Fostering innovation, creativity, and entrepreneurial mindset among students",
     buttons: [
       { text: "Learn More", href: "/about", variant: "primary" },
       { text: "Our Events", href: "/events", variant: "secondary" },
@@ -178,29 +195,33 @@ export const homeData = {
     background: {
       image: "/images/homelogo.png", // Changed from placeholder.svg to homelogo.png
       overlay: "bg-black/60", // Slightly darker overlay for better text visibility
-      className: "bg-cover bg-center bg-fixed bg-no-repeat min-h-screen" // Added bg-fixed for parallax effect
-    }
+      className: "bg-cover bg-center bg-fixed bg-no-repeat min-h-screen", // Added bg-fixed for parallax effect
+    },
   },
   features: [
     {
       icon: <Lightbulb className="h-10 w-10 text-darkblue-600" />,
       title: "Innovation",
-      description: "Fostering creative thinking and innovative solutions to real-world problems",
+      description:
+        "Fostering creative thinking and innovative solutions to real-world problems",
     },
     {
       icon: <Users className="h-10 w-10 text-darkblue-600" />,
       title: "Mentorship",
-      description: "Connecting students with industry experts and successful entrepreneurs",
+      description:
+        "Connecting students with industry experts and successful entrepreneurs",
     },
     {
       icon: <Calendar className="h-10 w-10 text-darkblue-600" />,
       title: "Events",
-      description: "Organizing workshops, hackathons, and bootcamps to develop skills",
+      description:
+        "Organizing workshops, hackathons, and bootcamps to develop skills",
     },
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
       title: "Incubation",
-      description: "Supporting student startups with resources, funding, and guidance",
+      description:
+        "Supporting student startups with resources, funding, and guidance",
     },
   ],
   upcomingEvents: currentEvents, // Reference the shared events array
@@ -216,7 +237,7 @@ export const homeData = {
     buttonText: "Join IEDC",
     buttonLink: "https://iedc.startupmission.in/joinus/", // Replace with actual Google Form link
   },
-}
+};
 
 // About Page Data
 export const aboutData = {
@@ -253,17 +274,20 @@ export const aboutData = {
     {
       year: "2015",
       title: "Foundation",
-      description: "IEDC was established at ASIET with a vision to promote innovation and entrepreneurship among students.",
+      description:
+        "IEDC was established at ASIET with a vision to promote innovation and entrepreneurship among students.",
     },
     {
       year: "2017",
       title: "B-HUB Inauguration",
-      description: "Adi Shankara Institute of Engineering and Technology inaugurated the B-HUB, a dedicated space for startups.",
+      description:
+        "Adi Shankara Institute of Engineering and Technology inaugurated the B-HUB, a dedicated space for startups.",
     },
     {
       year: "2019",
       title: "SIET Fab Lab in Top 3 in Kerala",
-      description: "KSIDC approves Business Incubation Centre. Produced marketable products, with state recognition for excellence.",
+      description:
+        "KSIDC approves Business Incubation Centre. Produced marketable products, with state recognition for excellence.",
     },
     {
       year: "2020",
@@ -273,43 +297,50 @@ export const aboutData = {
     {
       year: "2024",
       title: "KSUM Approval for Co-Working Space",
-      description: "KSUM approval for co-working space; over 25 products commercialized. Recognition of coordinators by EDII, KSUM, and Atal Innovation Mission.",
+      description:
+        "KSUM approval for co-working space; over 25 products commercialized. Recognition of coordinators by EDII, KSUM, and Atal Innovation Mission.",
     },
   ],
   successStories: [
     {
       name: "TechSolutions",
-      description: "AI-powered solutions for small businesses. Raised $500K in seed funding.",
+      description:
+        "AI-powered solutions for small businesses. Raised $500K in seed funding.",
       image: "/placeholder.svg?height=300&width=300",
       year: "2018",
     },
     {
       name: "EcoInnovate",
-      description: "Sustainable packaging alternatives. Winner of National Startup Award.",
+      description:
+        "Sustainable packaging alternatives. Winner of National Startup Award.",
       image: "/placeholder.svg?height=300&width=300",
       year: "2019",
     },
     {
       name: "HealthTech",
-      description: "Healthcare monitoring devices for rural areas. Impacted 10,000+ lives.",
+      description:
+        "Healthcare monitoring devices for rural areas. Impacted 10,000+ lives.",
       image: "/placeholder.svg?height=300&width=300",
       year: "2020",
     },
     {
       name: "EduLearn",
-      description: "Personalized learning platform for K-12 students. 50,000+ active users.",
+      description:
+        "Personalized learning platform for K-12 students. 50,000+ active users.",
       image: "/placeholder.svg?height=300&width=300",
       year: "2021",
     },
     {
       name: "FinTech Solutions",
-      description: "Financial inclusion platform for unbanked population. Partnered with 3 banks.",
+      description:
+        "Financial inclusion platform for unbanked population. Partnered with 3 banks.",
       image: "/placeholder.svg?height=300&width=300",
       year: "2022",
     },
     {
       name: "AgriTech",
-      description: "Smart farming solutions for small farmers. Deployed in 100+ farms.",
+      description:
+        "Smart farming solutions for small farmers. Deployed in 100+ farms.",
       image: "/placeholder.svg?height=300&width=300",
       year: "2023",
     },
@@ -335,26 +366,31 @@ export const aboutData = {
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
       title: "Best IEDC in State",
-      description: "Recognized as Best IEDC in the state and received Entrepreneurship Enabler Award",
+      description:
+        "Recognized as Best IEDC in the state and received Entrepreneurship Enabler Award",
     },
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
       title: "Best Performance Award",
-      description: "Received Best Performance Award from Kerala Startup Mission in 2020",
+      description:
+        "Received Best Performance Award from Kerala Startup Mission in 2020",
     },
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
-      title: "KSUM approval for co-working space; over 25 products commercialized",
-      description: "Recognition of coordinators by EDII, KSUM, and Atal Innovation Mission in 2024",
+      title:
+        "KSUM approval for co-working space; over 25 products commercialized",
+      description:
+        "Recognition of coordinators by EDII, KSUM, and Atal Innovation Mission in 2024",
     },
   ],
-}
+};
 
 // Excom Page Data
 export const excomData = {
   hero: {
     title: "Executive Committee",
-    subtitle: "Meet the dedicated team leading IEDC's initiatives and activities",
+    subtitle:
+      "Meet the dedicated team leading IEDC's initiatives and activities",
   },
   currentExcom: [
     {
@@ -365,7 +401,7 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/ashutoshvm/",
-        instagram: "https://www.instagram.com/the__.anonymous_/"
+        instagram: "https://www.instagram.com/the__.anonymous_/",
       },
     },
     {
@@ -375,8 +411,9 @@ export const excomData = {
       department: "Computer Science ( AI )",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
-        instagram: "https://www.instagram.com/_malavi.ka__/"
+        linkedin:
+          "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
+        instagram: "https://www.instagram.com/_malavi.ka__/",
       },
     },
     {
@@ -388,7 +425,8 @@ export const excomData = {
       year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/nithin-raj-068b13290/",
-        instagram: "https://www.instagram.com/deadline_dork_77?igsh=MWt3c3Z0MzZ4aTh3bg==/"
+        instagram:
+          "https://www.instagram.com/deadline_dork_77?igsh=MWt3c3Z0MzZ4aTh3bg==/",
       },
     },
     {
@@ -400,7 +438,7 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/ramkiranmohan/",
-        instagram: " https://www.instagram.com/notram._/"
+        instagram: " https://www.instagram.com/notram._/",
       },
     },
     {
@@ -412,7 +450,7 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com",
-        instagram: "https://www.instagram.com"
+        instagram: "https://www.instagram.com",
       },
     },
     {
@@ -424,7 +462,7 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com",
-        instagram: "https://www.instagram.com"
+        instagram: "https://www.instagram.com",
       },
     },
     {
@@ -434,8 +472,9 @@ export const excomData = {
       department: "Data Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/anjana-ajith-2a0037291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-        instagram: "https://www.instagram.com/anjxnnna?igsh=dm42d3R2NjU2cHVh/"
+        linkedin:
+          "https://www.linkedin.com/in/anjana-ajith-2a0037291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram: "https://www.instagram.com/anjxnnna?igsh=dm42d3R2NjU2cHVh/",
       },
     },
     {
@@ -447,7 +486,8 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/s-sreelakshmi-28a084328/",
-        instagram: "https://www.instagram.com/sree.laksh.mee?igsh=MXF2ajcxeTVyeHdxdQ==/"
+        instagram:
+          "https://www.instagram.com/sree.laksh.mee?igsh=MXF2ajcxeTVyeHdxdQ==/",
       },
     },
     {
@@ -458,7 +498,7 @@ export const excomData = {
       year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/nandana-silju-3040a3287/",
-        instagram: "https://www.instagram.com/nandana_silju/"
+        instagram: "https://www.instagram.com/nandana_silju/",
       },
     },
     {
@@ -470,7 +510,7 @@ export const excomData = {
       year: "Pre-Final Year",
       social: {
         linkedin: " https://www.linkedin.com/in/devananda-anil-2b3524230/",
-        instagram: "https://www.instagram.com/devzz_sum?igsh=Zng1c2xuNDU0enl0/"
+        instagram: "https://www.instagram.com/devzz_sum?igsh=Zng1c2xuNDU0enl0/",
       },
     },
     {
@@ -481,7 +521,7 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/lakshmi-nandana-r-504596231/",
-        instagram: "https://www.instagram.com/lakshmeeey/"
+        instagram: "https://www.instagram.com/lakshmeeey/",
       },
     },
     {
@@ -493,7 +533,8 @@ export const excomData = {
       year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/fathima-ajvad/",
-        instagram: "https://www.instagram.com/_fathima_ajvad?igsh=Y2tveHo2YTRqenVw/"
+        instagram:
+          "https://www.instagram.com/_fathima_ajvad?igsh=Y2tveHo2YTRqenVw/",
       },
     },
     {
@@ -504,7 +545,7 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/ameeshm4/",
-        instagram: "https://www.instagram.com/4m335h/"
+        instagram: "https://www.instagram.com/4m335h/",
       },
     },
     {
@@ -516,7 +557,8 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/hari-dev00/",
-        instagram: "https://www.instagram.com/_ha.riiii._/profilecard/?igsh=MW5qcmUzcm11OGlnZw=="
+        instagram:
+          "https://www.instagram.com/_ha.riiii._/profilecard/?igsh=MW5qcmUzcm11OGlnZw==",
       },
     },
     {
@@ -527,7 +569,8 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/rohith-james-6039ba37a/",
-        instagram: "https://www.instagram.com/r_o_c_k_u___?igsh=cGlyZ3FvZDJhNHZs/"
+        instagram:
+          "https://www.instagram.com/r_o_c_k_u___?igsh=cGlyZ3FvZDJhNHZs/",
       },
     },
     {
@@ -537,10 +580,11 @@ export const excomData = {
       //change
       department: "Computer Science",
       year: "Pre-Final Year",
-      social: {        
-        linkedin: "https://www.linkedin.com/in/abin-joy-122025286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-        instagram: "https://www.instagram.com/abin__._joy?igsh=MXBpMTEyNzFxYnV0/"
-
+      social: {
+        linkedin:
+          "https://www.linkedin.com/in/abin-joy-122025286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram:
+          "https://www.instagram.com/abin__._joy?igsh=MXBpMTEyNzFxYnV0/",
       },
     },
     {
@@ -551,8 +595,10 @@ export const excomData = {
       department: "Computer Science",
       year: "Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/sreegovind-r-356a45263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-        instagram: "https://www.instagram.com/sre.govind.rkammath?igsh=NG1zNTBmcnZ6cjJn/"
+        linkedin:
+          "https://www.linkedin.com/in/sreegovind-r-356a45263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram:
+          "https://www.instagram.com/sre.govind.rkammath?igsh=NG1zNTBmcnZ6cjJn/",
       },
     },
     {
@@ -563,8 +609,10 @@ export const excomData = {
       department: "Biomedical",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/adhi-narayanan-ba1975326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram: "https://www.instagram.com/adhi_narwywn?igsh=MTN1c3VnOWpmb2R6Zw=="
+        linkedin:
+          "https://www.linkedin.com/in/adhi-narayanan-ba1975326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:
+          "https://www.instagram.com/adhi_narwywn?igsh=MTN1c3VnOWpmb2R6Zw==",
       },
     },
     {
@@ -576,7 +624,8 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/AKSHAI-raj-p-r/",
-        instagram: "https://www.instagram.com/_.aksheiiii_?igsh=M3R0c21uaWpxYmNp/"
+        instagram:
+          "https://www.instagram.com/_.aksheiiii_?igsh=M3R0c21uaWpxYmNp/",
       },
     },
     {
@@ -587,8 +636,10 @@ export const excomData = {
       department: "RA",
       year: "Second Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/b-j-sai-krishna-31737433a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-        instagram: "https://www.instagram.com/snaps_with_sai__06/profilecard/?igsh=M2pqajFuMTgwcHVt/"
+        linkedin:
+          "https://www.linkedin.com/in/b-j-sai-krishna-31737433a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram:
+          "https://www.instagram.com/snaps_with_sai__06/profilecard/?igsh=M2pqajFuMTgwcHVt/",
       },
     },
     {
@@ -600,7 +651,8 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/vaishnavi-s-48555633a/",
-        instagram: "https://www.instagram.com/_vaishnavi.santhosh_?igsh=MWhtZDkxN3luZTF5bg=="
+        instagram:
+          "https://www.instagram.com/_vaishnavi.santhosh_?igsh=MWhtZDkxN3luZTF5bg==",
       },
     },
     {
@@ -611,7 +663,8 @@ export const excomData = {
       year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/sreelakshmi-s-nair-434587273/",
-        instagram: "https://www.instagram.com/sree.laksshmii?igsh=OW11d3pnYm5ybDlw/"
+        instagram:
+          "https://www.instagram.com/sree.laksshmii?igsh=OW11d3pnYm5ybDlw/",
       },
     },
     {
@@ -623,7 +676,7 @@ export const excomData = {
       year: "Second Year",
       social: {
         linkedin: "https://www.linkedin.com/in/madhav-j-niravath-2aab5232a/",
-        instagram: "https://www.instagram.com/madhavvvvj/"
+        instagram: "https://www.instagram.com/madhavvvvj/",
       },
     },
     {
@@ -634,8 +687,10 @@ export const excomData = {
       department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/pavithra-deepu-e?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-        instagram: "https://www.instagram.com/paviiithraaa._?igsh=ZXhwdHBwcWZkdGY=/"
+        linkedin:
+          "https://www.linkedin.com/in/pavithra-deepu-e?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram:
+          "https://www.instagram.com/paviiithraaa._?igsh=ZXhwdHBwcWZkdGY=/",
       },
     },
     {
@@ -647,7 +702,7 @@ export const excomData = {
       year: "Pre-Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/afiya-fathima/",
-        instagram: "https://www.instagram.com/af_i_ya/"
+        instagram: "https://www.instagram.com/af_i_ya/",
       },
     },
     {
@@ -658,134 +713,136 @@ export const excomData = {
       department: "Biomedical",
       year: "Pre-Final Year",
       social: {
-        linkedin: "https://www.linkedin.com/in/nandana-g-805b56290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
-        instagram: "https://www.instagram.com/nandana_.girish._?igsh=MWV1eG00Y2piZmJpMg==/"
+        linkedin:
+          "https://www.linkedin.com/in/nandana-g-805b56290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
+        instagram:
+          "https://www.instagram.com/nandana_.girish._?igsh=MWV1eG00Y2piZmJpMg==/",
       },
     },
   ],
   previousExcom: {
     "2024-2025": [
-     { 
-      name: "Arjun Bittaj",
-      position: "IEDC Lead",
-      image: "/images/excom/arjunbittaj.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Aparna Prasad",
-      position: "IEDC Lead",
-      image: "/images/excom/aparnaprasad.jpg?height=300&width=300",
-      department: "Electronics"
-    },
-    {
-      name: "Luthfiya Kamal",
-      position: "Event Lead and IPR Coordinator",
-      image: "/images/excom/luthfiakamal.jpg?height=300&width=300",
-      department: "Biomedical"
-    },
-    {
-      name: "Ajin P D",
-      position: "Event Lead and IPR Coordinator",
-      image: "/images/excom/ajinpd.jpg?height=300&width=300",
-      department: "Computer Science (AI)"
-    },
-    {
-      name: "Ashutosh V M",
-      position: "Technical Lead",
-      image: "/images/excom/ashutoshvm.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Sreeraj S",
-      position: "Technical Lead",
-      image: "/images/excom/sreerajs.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Shoun Augustine",
-      position: "Technical Lead",
-      image: "/images/excom/shouns.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Malavika Muraleedharan",
-      position: "Women Entrepreneurship Lead",
-      image: "/images/excom/malavika.jpg?height=300&width=300",
-      department: "Computer Science(AI)"
-    },
-    {
-      name: "Nimmy Jolly",
-      position: "Women Entrepreneurship Lead",
-      image: "/images/excom/nimmikjolly.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Arjun S",
-      position: "Community Lead",
-      image: "/images/excom/arjuns.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Lakshmi Nandana R",
-      position: "Community Lead",
-      image: "/images/excom/lakshminandana.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Ameesh Muhammed ",
-      position: "Creative and Innovative Lead",
-      image: "/images/excom/ameesh.jpg?height=300&width=300",
-      department: "Computer Science(AI)"
-    },
-    {
-      name: "Adarsh Ajith",
-      position: "Creative and Innovative Lead",
-      image: "/images/excom/adarshajith.jpg?height=300&width=300",
-      department: "Computer Science(AI)"
-    },
-    {
-      name: "Nanditha Nambyar",
-      position: "Finance Lead",
-      image: "/images/excom/nanditanambyar.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Rohit James",
-      position: "Finance Lead",
-      image: "/images/excom/rohit.jpg?height=300&width=300",
-      department: "Mechanical"
-    },
-    {
-      name: "Nandana Silju",
-      position: "Finance Lead",
-      image: "/images/excom/nandana.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Rithwik Vallabhan",
-      position: "Quality and operations Lead",
-      image: "/images/excom/rithwik.jpg?height=300&width=300",
-      department: "Computer Science"
-    },
-    {
-      name: "Aleena Nelson",
-      position: "Quality and operations Lead",
-      image: "/images/excom/aleenanelson.jpg?height=300&width=300",
-      department: "Biomedical"
-    },
-    {
-      name: "Melvin Mathew Jacob",
-      position: "Branding and Marketing Lead",
-      image: "/images/excom/melvin.jpg?height=300&width=300",
-      department: "Biomedical"
-    },
-    {
-      name: "Sanchu M",
-      position: "Branding and Marketing Lead",
-      image: "/images/excom/sanchum.jpg?height=300&width=300",
-      department: "EEE"
-    },
-  ],
+      {
+        name: "Arjun Bittaj",
+        position: "IEDC Lead",
+        image: "/images/excom/arjunbittaj.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Aparna Prasad",
+        position: "IEDC Lead",
+        image: "/images/excom/aparnaprasad.jpg?height=300&width=300",
+        department: "Electronics",
+      },
+      {
+        name: "Luthfiya Kamal",
+        position: "Event Lead and IPR Coordinator",
+        image: "/images/excom/luthfiakamal.jpg?height=300&width=300",
+        department: "Biomedical",
+      },
+      {
+        name: "Ajin P D",
+        position: "Event Lead and IPR Coordinator",
+        image: "/images/excom/ajinpd.jpg?height=300&width=300",
+        department: "Computer Science (AI)",
+      },
+      {
+        name: "Ashutosh V M",
+        position: "Technical Lead",
+        image: "/images/excom/ashutoshvm.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Sreeraj S",
+        position: "Technical Lead",
+        image: "/images/excom/sreerajs.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Shoun Augustine",
+        position: "Technical Lead",
+        image: "/images/excom/shouns.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Malavika Muraleedharan",
+        position: "Women Entrepreneurship Lead",
+        image: "/images/excom/malavika.jpg?height=300&width=300",
+        department: "Computer Science(AI)",
+      },
+      {
+        name: "Nimmy Jolly",
+        position: "Women Entrepreneurship Lead",
+        image: "/images/excom/nimmikjolly.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Arjun S",
+        position: "Community Lead",
+        image: "/images/excom/arjuns.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Lakshmi Nandana R",
+        position: "Community Lead",
+        image: "/images/excom/lakshminandana.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Ameesh Muhammed ",
+        position: "Creative and Innovative Lead",
+        image: "/images/excom/ameesh.jpg?height=300&width=300",
+        department: "Computer Science(AI)",
+      },
+      {
+        name: "Adarsh Ajith",
+        position: "Creative and Innovative Lead",
+        image: "/images/excom/adarshajith.jpg?height=300&width=300",
+        department: "Computer Science(AI)",
+      },
+      {
+        name: "Nanditha Nambyar",
+        position: "Finance Lead",
+        image: "/images/excom/nanditanambyar.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Rohit James",
+        position: "Finance Lead",
+        image: "/images/excom/rohit.jpg?height=300&width=300",
+        department: "Mechanical",
+      },
+      {
+        name: "Nandana Silju",
+        position: "Finance Lead",
+        image: "/images/excom/nandana.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Rithwik Vallabhan",
+        position: "Quality and operations Lead",
+        image: "/images/excom/rithwik.jpg?height=300&width=300",
+        department: "Computer Science",
+      },
+      {
+        name: "Aleena Nelson",
+        position: "Quality and operations Lead",
+        image: "/images/excom/aleenanelson.jpg?height=300&width=300",
+        department: "Biomedical",
+      },
+      {
+        name: "Melvin Mathew Jacob",
+        position: "Branding and Marketing Lead",
+        image: "/images/excom/melvin.jpg?height=300&width=300",
+        department: "Biomedical",
+      },
+      {
+        name: "Sanchu M",
+        position: "Branding and Marketing Lead",
+        image: "/images/excom/sanchum.jpg?height=300&width=300",
+        department: "EEE",
+      },
+    ],
     "2023-2024": [
       {
         name: "Nowarlal",
@@ -947,7 +1004,8 @@ export const excomData = {
       {
         name: "Bhagya Rajeshkumar Panicker",
         position: "Quality and Operations Co-Lead",
-        image: "/images/excom22-23/bhagyarajeshpanicker.jpeg?height=300&width=300",
+        image:
+          "/images/excom22-23/bhagyarajeshpanicker.jpeg?height=300&width=300",
       },
       {
         name: "Sreeraj Rajeev",
@@ -1134,15 +1192,16 @@ export const excomData = {
       bio: "Dr. Sneha Prakash brings industry connections and expertise in securing funding for early-stage startups.",
     },
   ],
-}
+};
 
 // Events Page Data
 export const eventsData = {
   hero: {
     title: "Events & Activities",
-    subtitle: "Discover workshops, competitions, and networking opportunities to enhance your entrepreneurial journey",
+    subtitle:
+      "Discover workshops, competitions, and networking opportunities to enhance your entrepreneurial journey",
   },
-  currentEvents:[
+  currentEvents: [
     // {
     //     id: 1,
     //     title: "",
@@ -1154,34 +1213,34 @@ export const eventsData = {
     //     category: "",
     //     registrationLink: ""
     //  },
-     ],
+  ],
   previousEvents: [
-      {
-        id: 1112,
-        title: "LEEP 2025",
-        date: "September 15, 2025",
-        location: "ASIET",
-        image: "/images/Events/ev14.jpeg?height=10&width=600",
-        description: "empowering the next generation of leaders and changemakers",
-        category: "Workshop",
-        
-     },
-      {
-        id: 1113,
-        title: "MSME IDEA Hackathon 2025",
-        date: "July 14, 2025",
-        location: "ASIET",
-        image: "/images/Events/ev13.jpeg?height=10&width=600",
-        description: "Join and build the new world.",
-        category: "Competition",
-     },
-     {  
+    {
+      id: 1112,
+      title: "LEEP 2025",
+      date: "September 15, 2025",
+      location: "ASIET",
+      image: "/images/Events/ev14.jpeg?height=10&width=600",
+      description: "empowering the next generation of leaders and changemakers",
+      category: "Workshop",
+    },
+    {
+      id: 1113,
+      title: "MSME IDEA Hackathon 2025",
+      date: "July 14, 2025",
+      location: "ASIET",
+      image: "/images/Events/ev13.jpeg?height=10&width=600",
+      description: "Join and build the new world.",
+      category: "Competition",
+    },
+    {
       id: 1114,
       title: "Excom Call",
       date: "August 18, 2025",
       location: "IEDC Bootcamp",
       image: "/images/Events/excomcall.png?height=10&width=600",
-      description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
+      description:
+        "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
       category: "Other Event",
     },
     {
@@ -1190,7 +1249,8 @@ export const eventsData = {
       date: "March 25, 2025",
       location: "Robotics Seminar Hall",
       image: "/images/Events/ev1.jpg?height=400&width=600",
-      description: "A day-long event where students pitched their innovative ideas to a panel of judges.",
+      description:
+        "A day-long event where students pitched their innovative ideas to a panel of judges.",
       category: "Competition",
     },
     {
@@ -1199,7 +1259,8 @@ export const eventsData = {
       date: "March 13, 2025",
       location: "Seminar Hall",
       image: "/images/Events/ev2.jpg?height=400&width=600",
-      description: "A workshop aimed at creating awareness about entrepreneurship and startup culture.",
+      description:
+        "A workshop aimed at creating awareness about entrepreneurship and startup culture.",
       category: "Workshop",
     },
     {
@@ -1208,7 +1269,8 @@ export const eventsData = {
       date: "March 01, 2025",
       location: "Parking Area",
       image: "/images/Events/ev3.jpg?height=400&width=600",
-      description: "An opportunity for student startups to connect with potential investors.",
+      description:
+        "An opportunity for student startups to connect with potential investors.",
       category: "Exhibition",
     },
     {
@@ -1217,7 +1279,8 @@ export const eventsData = {
       date: "October 21 & 22, 2024",
       location: "Central Computing Facility",
       image: "/images/Events/ev4.jpg?height=400&width=600",
-      description: "A 24-hour hackathon where students collaborated to develop innovative solutions to real-world problems.",
+      description:
+        "A 24-hour hackathon where students collaborated to develop innovative solutions to real-world problems.",
       category: "Competition",
     },
     {
@@ -1235,7 +1298,8 @@ export const eventsData = {
       date: "September 25, 2024",
       location: "Seminar Hall",
       image: "/images/Events/ev6.jpg?height=400&width=600",
-      description: "A meet for IEDC coordinators from various colleges to discuss and share best practices.",
+      description:
+        "A meet for IEDC coordinators from various colleges to discuss and share best practices.",
       category: "Workshop",
     },
     {
@@ -1244,7 +1308,8 @@ export const eventsData = {
       date: "March 22, 2024",
       location: "Seminar hall",
       image: "/images/Events/ev7.jpg?height=400&width=600",
-      description: "A platform for students to showcase their innovative projects and ideas.",
+      description:
+        "A platform for students to showcase their innovative projects and ideas.",
       category: "Workshop",
     },
     {
@@ -1253,7 +1318,8 @@ export const eventsData = {
       date: "March 01, 2023",
       location: "Main Campus",
       image: "/images/Events/ev8.jpg?height=400&width=600",
-      description: "An event for student innovators to showcase their ideas and products.",
+      description:
+        "An event for student innovators to showcase their ideas and products.",
       category: "Exhibition",
     },
     {
@@ -1262,7 +1328,8 @@ export const eventsData = {
       date: "October 30, 2023",
       location: "Online",
       image: "/images/Events/ev9.jpg?height=400&width=600",
-      description: "A challenge to solve industry-specific problems using innovative solutions.",
+      description:
+        "A challenge to solve industry-specific problems using innovative solutions.",
       category: "Competition",
     },
     {
@@ -1271,7 +1338,8 @@ export const eventsData = {
       date: "November 1, 2023",
       location: "Online",
       image: "/images/Events/ev9.jpg?height=400&width=600",
-      description: "A challenge to solve industry-specific problems using innovative solutions.",
+      description:
+        "A challenge to solve industry-specific problems using innovative solutions.",
       category: "Competition",
     },
     {
@@ -1280,7 +1348,8 @@ export const eventsData = {
       date: "November 15, 2023",
       location: "Online",
       image: "/images/Events/ev9.jpg?height=400&width=600",
-      description: "A challenge to solve industry-specific problems using innovative solutions.",
+      description:
+        "A challenge to solve industry-specific problems using innovative solutions.",
       category: "Competition",
     },
     {
@@ -1289,7 +1358,8 @@ export const eventsData = {
       date: "November 28, 2023",
       location: "Online",
       image: "/images/Events/ev9.jpg?height=400&width=600",
-      description: "A challenge to solve industry-specific problems using innovative solutions.",
+      description:
+        "A challenge to solve industry-specific problems using innovative solutions.",
       category: "Competition",
     },
     {
@@ -1298,7 +1368,8 @@ export const eventsData = {
       date: "May 1, 2024",
       location: "IEDC Bootcamp",
       image: "/images/Events/ev10.jpg?height=400&width=600",
-      description: "A call for students to apply for the executive committee of IEDC.",
+      description:
+        "A call for students to apply for the executive committee of IEDC.",
       category: "Other Event",
     },
     {
@@ -1316,13 +1387,13 @@ export const eventsData = {
       date: "August 2, 2023",
       location: "IEDC Bootcamp",
       image: "/images/Events/ev12.jpg?height=400&width=600",
-      description: "A call for students to apply for the executive committee of IEDC.",
+      description:
+        "A call for students to apply for the executive committee of IEDC.",
       category: "Other Event",
     },
-    
   ],
   categories: ["All", "Workshop", "Competition", "Other Event", "Exhibition"],
-}
+};
 
 // Gallery Page Data
 export const galleryData = {
@@ -1330,7 +1401,14 @@ export const galleryData = {
     title: "Gallery",
     subtitle: "Explore moments from our events, workshops, and activities",
   },
-  categories: ["All", "Events", "Workshops", "Competitions", "Exhibitions", "Summit and Feild Trip"],
+  categories: [
+    "All",
+    "Events",
+    "Workshops",
+    "Competitions",
+    "Exhibitions",
+    "Summit and Feild Trip",
+  ],
   videos: [
     {
       id: 1001,
@@ -1338,7 +1416,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp1.jpg",
       url: "/videos/video1.mp4",
       duration: "1:30",
-      date: "December 6, 2023"
+      date: "December 6, 2023",
     },
     {
       id: 1002,
@@ -1346,7 +1424,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp2.jpg",
       url: "/videos/video2.mp4",
       duration: "2:13",
-      date: "January 15, 2024"
+      date: "January 15, 2024",
     },
     {
       id: 1003,
@@ -1354,15 +1432,15 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp3.jpg",
       url: "/videos/video3.mp4",
       duration: "00:52",
-      date: "February 1, 2024"
+      date: "February 1, 2024",
     },
     {
-      id:1004,
+      id: 1004,
       title: "Entrepreneurship Seminar",
       thumbnail: "/images/thumbnails/tmp4.jpg",
       url: "/videos/video4.mp4",
       duration: "01:19",
-      date: "march 23, 2024"
+      date: "march 23, 2024",
     },
     {
       id: 1005,
@@ -1370,7 +1448,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp5.jpg",
       url: "/videos/video5.mp4",
       duration: "10:15",
-      date: "March 5, 2024"
+      date: "March 5, 2024",
     },
     {
       id: 1006,
@@ -1378,7 +1456,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp5.jpg",
       url: "/videos/video6.mp4",
       duration: "18:30",
-      date: "March 15, 2024"
+      date: "March 15, 2024",
     },
     {
       id: 1007,
@@ -1386,7 +1464,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp5.jpg",
       url: "/videos/video7.mp4",
       duration: "7:45",
-      date: "March 20, 2024"
+      date: "March 20, 2024",
     },
     {
       id: 1008,
@@ -1394,7 +1472,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp6.png",
       url: "/videos/video8.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "March 25, 2024",
     },
     {
       id: 1009,
@@ -1402,7 +1480,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp7.heic",
       url: "/videos/video9.mp4",
       duration: "14:20",
-      date: "August 30, 2024"
+      date: "August 30, 2024",
     },
     {
       id: 1010,
@@ -1410,15 +1488,15 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp8.webp",
       url: "/videos/video10.mp4",
       duration: "14:20",
-      date: "October 20-21, 2024"
+      date: "October 20-21, 2024",
     },
     {
       id: 1011,
-      title: "Twilight Hack", 
+      title: "Twilight Hack",
       thumbnail: "/images/thumbnails/tmp6.jpg",
       url: "/videos/video8.mp4",
       duration: "14:20",
-      date: "October 21-22, 2024"
+      date: "October 21-22, 2024",
     },
     {
       id: 1012,
@@ -1426,7 +1504,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp9.jpg",
       url: "/videos/video12.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "March 25, 2024",
     },
     {
       id: 1013,
@@ -1434,7 +1512,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp10.png",
       url: "/videos/video13.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "March 25, 2024",
     },
     {
       id: 1014,
@@ -1442,7 +1520,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp9.jpg",
       url: "/videos/video14.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "March 25, 2024",
     },
     {
       id: 1015,
@@ -1450,7 +1528,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp11.jpg",
       url: "/videos/video15.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "March 25, 2024",
     },
     {
       id: 1016,
@@ -1458,7 +1536,7 @@ export const galleryData = {
       thumbnail: "/images/thumbnails/tmp12.jpg",
       url: "/videos/video16.mp4",
       duration: "14:20",
-      date: "March 28, 2025"
+      date: "March 28, 2025",
     },
   ],
   images: [
@@ -1596,8 +1674,7 @@ export const galleryData = {
       image: "/images/Gallery/photo19.jpg?height=600&width=900",
     },
     {
-      id: 20
-      ,
+      id: 20,
       title: "Face to Face interaction with CM",
       category: "Events",
       date: "February 20, 2024",
@@ -1644,7 +1721,8 @@ export const galleryData = {
       category: "Events",
       date: "June 4, 2024",
       image: "/images/Gallery/photo26.heic?height=600&width=900",
-    },{
+    },
+    {
       id: 27,
       title: "Farewell 23t",
       category: "Events",
@@ -1657,7 +1735,8 @@ export const galleryData = {
       category: "Events",
       date: "june 4, 2024",
       image: "/images/Gallery/photo28.heic?height=600&width=900",
-    },{
+    },
+    {
       id: 29,
       title: "Farewell 23",
       category: "Events",
@@ -1666,139 +1745,174 @@ export const galleryData = {
     },
     {
       id: 30,
-      title: "Ideathon Pitching Competition Winners", 
+      title: "Ideathon Pitching Competition Winners",
       category: "Competitions",
       date: "June 20, 2024",
       image: "/images/Gallery/photo30.heic?height=600&width=900",
     },
     {
       id: 31,
-      title: "Leap Center Inauguration", 
+      title: "Leap Center Inauguration",
       category: "Events",
       date: "August 30, 2024",
       image: "/images/Gallery/photo31.heic?height=600&width=900",
     },
     {
       id: 32,
-      title: "Leap Center Inauguration", 
+      title: "Leap Center Inauguration",
       category: "Events",
       date: "August 30, 2024",
       image: "/images/Gallery/photo32.heic?height=600&width=900",
     },
     {
       id: 33,
-      title: "Cluster Meet", 
+      title: "Cluster Meet",
       category: "Events",
       date: "September 25, 2024",
       image: "/images/Gallery/photo33.webp?height=600&width=900",
     },
     {
       id: 34,
-      title: "Cluster Meet", 
+      title: "Cluster Meet",
       category: "Events",
       date: "September 25, 2024",
       image: "/images/Gallery/photo34.webp?height=600&width=900",
     },
     {
       id: 35,
-      title: "Cluster Meet", 
+      title: "Cluster Meet",
       category: "Events",
       date: "September 25, 2024",
       image: "/images/Gallery/photo35.webp?height=600&width=900",
     },
     {
       id: 36,
-      title: "Cluster Meet", 
+      title: "Cluster Meet",
       category: "Events",
       date: "September 25, 2024",
       image: "/images/Gallery/photo36.webp?height=600&width=900",
     },
     {
       id: 37,
-      title: "Kalam Legacy", 
+      title: "Kalam Legacy",
       category: "Competitions",
       date: "october 15, 2024",
       image: "/images/Gallery/photo37.webp?height=600&width=900",
     },
     {
       id: 38,
-      title: "Kalam Legacy", 
+      title: "Kalam Legacy",
       category: "Competitions",
       date: "october 15, 2024",
       image: "/images/Gallery/photo38.jpg?height=600&width=900",
     },
     {
       id: 39,
-      title: "IEDC Summit 2024", 
+      title: "IEDC Summit 2024",
       category: "Summit and Feild Trip",
       date: "October 20-21, 2024",
       image: "/images/Gallery/photo39.webp?height=600&width=900",
     },
     {
       id: 40,
-      title: "IEDC Summit 2024", 
+      title: "IEDC Summit 2024",
       category: "Summit and Feild Trip",
       date: "October 20-21, 2024",
       image: "/images/Gallery/photo40.webp?height=600&width=900",
     },
     {
       id: 41,
-      title: "IEDC Summit 2024", 
+      title: "IEDC Summit 2024",
       category: "Summit and Feild Trip",
       date: "October 20-21, 2024",
       image: "/images/Gallery/photo41.webp?height=600&width=900",
     },
     {
       id: 42,
-      title: "IEDC Summit 2024", 
+      title: "IEDC Summit 2024",
       category: "Summit and Feild Trip",
       date: "October 20-21, 2024",
       image: "/images/Gallery/photo42.webp?height=600&width=900",
     },
     {
       id: 43,
-      title: "Twilight Hack", 
+      title: "Twilight Hack",
       category: "Competitions",
       date: "October 21-22, 2024",
       image: "/images/Gallery/photo43.jpg?height=600&width=900",
     },
     {
       id: 44,
-      title: "Twilight Hack", 
+      title: "Twilight Hack",
       category: "Competitions",
       date: "October 21-22, 2024",
       image: "/images/Gallery/photo44.jpg?height=600&width=900",
     },
     {
       id: 45,
-      title: "Twilight Hack", 
+      title: "Twilight Hack",
       category: "Competitions",
       date: "October 21-22, 2024",
       image: "/images/Gallery/photo45.jpg?height=600&width=900",
     },
     {
       id: 46,
-      title: "Ideathon Pitching Competition", 
+      title: "Ideathon Pitching Competition",
       category: "Competitions",
       date: "March 25, 2025",
       image: "/images/Gallery/photo46.heic?height=600&width=900",
     },
     {
       id: 47,
-      title: "Ideathon Pitching Competition", 
+      title: "Ideathon Pitching Competition",
       category: "Competitions",
       date: "March 25, 2025",
       image: "/images/Gallery/photo47.heic?height=600&width=900",
     },
     {
       id: 48,
-      title: "REVOIR 25", 
+      title: "REVOIR 25",
       category: "events",
       date: "June 20, 2024",
       image: "/images/Gallery/photo48.jpg?height=600&width=900",
     },
+    {
+      id: 49,
+      title: "LEEP 25",
+      category: "events",
+      date: "September 15 & 16, 2025",
+      image: "/images/Gallery/photo49.jpeg?height=600&width=900",
+    },
+    {
+      id: 50,
+      title: "LEEP 25",
+      category: "events",
+      date: "September 15 & 16, 2025",
+      image: "/images/Gallery/photo50.jpeg?height=600&width=900",
+    },
+    {
+      id: 51,
+      title: "LEEP 25",
+      category: "events",
+      date: "September 15 & 16, 2025",
+      image: "/images/Gallery/photo51.jpeg?height=600&width=900",
+    },
+    {
+      id: 52,
+      title: "LEEP 25",
+      category: "events",
+      date: "September 15 & 16, 2025",
+      image: "/images/Gallery/photo52.jpeg?height=600&width=900",
+    },
+    {
+      id: 53,
+      title: "LEEP 25",
+      category: "events",
+      date: "September 15 & 16, 2025",
+      image: "/images/Gallery/photo53.jpeg?height=600&width=900",
+    },
   ],
-}
+};
 
 // Contact Page Data
 export const contactData = {
@@ -1843,12 +1957,22 @@ export const contactData = {
         "Students interested in volunteering can reach out to the IEDC office or contact any of the executive committee members. We're always looking for enthusiastic volunteers to help with our events and activities.",
     },
   ],
-  formSubjects: ["General Inquiry", "Event Participation", "Startup Support", "Mentorship", "Collaboration", "Other"],
+  formSubjects: [
+    "General Inquiry",
+    "Event Participation",
+    "Startup Support",
+    "Mentorship",
+    "Collaboration",
+    "Other",
+  ],
   contactForm: {
     success: {
       title: "Message Sent Successfully!",
-      message: "Thank you for reaching out. We'll get back to you as soon as possible.",
-      icon: <CheckCircle className="h-16 w-16 text-green-600 dark:text-green-400" />,
+      message:
+        "Thank you for reaching out. We'll get back to you as soon as possible.",
+      icon: (
+        <CheckCircle className="h-16 w-16 text-green-600 dark:text-green-400" />
+      ),
     },
     fields: [
       {
@@ -1890,31 +2014,40 @@ export const contactData = {
     title: "Connect With Us",
     subtitle: "Follow us on social media for updates and announcements",
     links: [
-      { 
-        name: "Facebook", 
+      {
+        name: "Facebook",
         href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v",
-        icon: <Facebook className="h-8 w-8 hover:text-blue-600 transition-colors" />
+        icon: (
+          <Facebook className="h-8 w-8 hover:text-blue-600 transition-colors" />
+        ),
       },
-      { 
-        name: "Youtube", 
+      {
+        name: "Youtube",
         href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP",
-        icon: <Youtube className="h-8 w-8 hover:text-red-600 transition-colors" />
+        icon: (
+          <Youtube className="h-8 w-8 hover:text-red-600 transition-colors" />
+        ),
       },
-      { 
-        name: "Instagram", 
+      {
+        name: "Instagram",
         href: "https://www.instagram.com/asiet_iedc",
-        icon: <Instagram className="h-8 w-8 hover:text-pink-600 transition-colors" />
+        icon: (
+          <Instagram className="h-8 w-8 hover:text-pink-600 transition-colors" />
+        ),
       },
-      { 
-        name: "LinkedIn", 
+      {
+        name: "LinkedIn",
         href: "https://www.linkedin.com/company/iedc-asiet/",
-        icon: <Linkedin className="h-8 w-8 hover:text-blue-700 transition-colors" />
-      }
-    ]
+        icon: (
+          <Linkedin className="h-8 w-8 hover:text-blue-700 transition-colors" />
+        ),
+      },
+    ],
   },
   mapSection: {
     title: "Find Us",
-    subtitle: "Visit our office to learn more about our programs and initiatives",
+    subtitle:
+      "Visit our office to learn more about our programs and initiatives",
     mapEmbed: (
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.3163114677605!2d76.42670313444827!3d10.177936142501386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDEwJzQwLjYiTiA3NsKwMjUnNDUuNCJF!5e0!3m2!1sen!2sin!4v1709960012345!5m2!1sen!2sin"
@@ -1922,12 +2055,12 @@ export const contactData = {
         height="1100.6"
         style={{
           border: "none",
-          width: '100%',
-          height: '100%',
+          width: "100%",
+          height: "100%",
           borderRadius: "0.75rem",
           boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
           maxWidth: "3000.4px",
-          maxHeight: "1100.6px"
+          maxHeight: "1100.6px",
         }}
         allowFullScreen
         loading="lazy"
@@ -1935,17 +2068,18 @@ export const contactData = {
         title="ASIET IEDC Location"
       ></iframe>
     ),
-    mapLink: "https://maps.google.com/maps?q=10.177936104149945,76.42928813995687",
+    mapLink:
+      "https://maps.google.com/maps?q=10.177936104149945,76.42928813995687",
     directions: {
       title: "Getting Here",
       items: [
         "Located in Adi Shankara Institute of Engineering and Technology, Kalady",
         "15 minutes from Cochin International Airport",
-        "5 minutes from Kalady town center"
-      ]
-    }
+        "5 minutes from Kalady town center",
+      ],
+    },
   },
-}
+};
 
 // Footer Data
 export const footerData = {
@@ -1964,16 +2098,32 @@ export const footerData = {
     address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   },
   socialLinks: [
-    { name: "Facebook", href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v", icon: <Facebook className="h-6 w-6" /> },
-    { name: "Youtube", href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP", icon: <Youtube className="h-6 w-6" /> },
-    { name: "Instagram", href: "https://www.instagram.com/asiet_iedc", icon: <Instagram className="h-6 w-6" /> },
-    { name: "LinkedIn", href: "https://www.linkedin.com/company/iedc-asiet/", icon: <Linkedin className="h-6 w-6" /> },
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v",
+      icon: <Facebook className="h-6 w-6" />,
+    },
+    {
+      name: "Youtube",
+      href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP",
+      icon: <Youtube className="h-6 w-6" />,
+    },
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/asiet_iedc",
+      icon: <Instagram className="h-6 w-6" />,
+    },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/company/iedc-asiet/",
+      icon: <Linkedin className="h-6 w-6" />,
+    },
   ],
   copyright: {
     text: "© {year} IEDC. All rights reserved.",
     year: new Date().getFullYear(),
   },
-}
+};
 
 // UI Elements and Common Components Data
 export const uiData = {
@@ -2022,4 +2172,4 @@ export const uiData = {
     error: "#EF4444", // Red
     warning: "#F59E0B", // Yellow
   },
-}
+};
