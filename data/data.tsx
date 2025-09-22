@@ -175,7 +175,7 @@ export const currentEvents = [
         date: "September 26,2025",
         time:"9 AM",
         location: "ASIET",
-        image: "/images/Events/ev15.jpeg?height=10&width=600",
+        image: "/images/Events/ev16.jpeg?height=10&width=600",
         description: "The Center for AI-IOT Innovation & IEDC ASIET present Nava’25 – The Eco-Ideathon, our flagship pitching competition designed to turn your sustainable ideas into real-world impact!",
         category: "Competition",
         registrationLink: "http://iedc-website-wine.vercel.app/nava25"
@@ -1208,7 +1208,7 @@ export const eventsData = {
         date: "September 26,2025",
         time:"9 AM",
         location: "ASIET",
-        image: "/images/Events/ev15.jpeg?height=10&width=600",
+        image: "/images/Events/ev16.jpeg?height=10&width=600",
         description: "The Center for AI-IOT Innovation & IEDC ASIET present Nava’25 – The Eco-Ideathon, our flagship pitching competition designed to turn your sustainable ideas into real-world impact!",
         category: "Competition",
         registrationLink: "http://iedc-website-wine.vercel.app/nava25"
