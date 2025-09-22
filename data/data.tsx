@@ -169,17 +169,17 @@ export const contactInfo: ContactInfo = {
 
 // Move currentEvents before homeData for better organization
 export const currentEvents = [
-  // {
-  //   id: 1,
-  //   title: "MSME IDEA Hackathon 2025",
-  //   date: "14th July 2025",
-  //   // time: "To Be Announced",
-  //   location: "ASIET",
-  //   image: "/images/Events/ev13.jpeg?height=10&width=600",
-  //   description: "Join and build the new world.",
-  //   category: "Competition",
-  //   registrationLink: "https://my.msme.gov.in/inc/",
-  // }
+  {
+        id: 1,
+        title: "Nava'25",
+        date: "September 26,2025",
+        time:"9 AM",
+        location: "ASIET",
+        image: "/images/Events/ev15.jpeg?height=10&width=600",
+        description: "The Center for AI-IOT Innovation & IEDC ASIET present Nava’25 – The Eco-Ideathon, our flagship pitching competition designed to turn your sustainable ideas into real-world impact!",
+        category: "Competition",
+        registrationLink: "http://iedc-website-wine.vercel.app/nava25"
+     },
 ];
 
 // Home Page Data
@@ -1208,7 +1208,7 @@ export const eventsData = {
         date: "September 26,2025",
         time:"9 AM",
         location: "ASIET",
-        image: "",
+        image: "/images/Events/ev15.jpeg?height=10&width=600",
         description: "The Center for AI-IOT Innovation & IEDC ASIET present Nava’25 – The Eco-Ideathon, our flagship pitching competition designed to turn your sustainable ideas into real-world impact!",
         category: "Competition",
         registrationLink: "http://iedc-website-wine.vercel.app/nava25"
