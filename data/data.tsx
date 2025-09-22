@@ -1202,17 +1202,17 @@ export const eventsData = {
       "Discover workshops, competitions, and networking opportunities to enhance your entrepreneurial journey",
   },
   currentEvents: [
-    // {
-    //     id: 1,
-    //     title: "",
-    //     date: "",
-    //     time:"",
-    //     location: "",
-    //     image: "",
-    //     description: "",
-    //     category: "",
-    //     registrationLink: ""
-    //  },
+    {
+        id: 1,
+        title: "Nava'25",
+        date: "September 26,2025",
+        time:"9 AM",
+        location: "ASIET",
+        image: "",
+        description: "The Center for AI-IOT Innovation & IEDC ASIET present Nava’25 – The Eco-Ideathon, our flagship pitching competition designed to turn your sustainable ideas into real-world impact!",
+        category: "Competition",
+        registrationLink: "http://iedc-website-wine.vercel.app/nava25"
+     },
   ],
   previousEvents: [
     {
