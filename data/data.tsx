@@ -172,7 +172,7 @@ export const currentEvents = [
   {
         id: 1,
         title: "Nava'25",
-        date: "September 26,2025",
+        date: "October 3,2025",
         time:"9 AM",
         location: "ASIET",
         image: "/images/Events/ev16.jpeg?height=10&width=600",
@@ -1205,7 +1205,7 @@ export const eventsData = {
     {
         id: 1,
         title: "Nava'25",
-        date: "September 26,2025",
+        date: "October 3,2025",
         time:"9 AM",
         location: "ASIET",
         image: "/images/Events/ev16.jpeg?height=10&width=600",
